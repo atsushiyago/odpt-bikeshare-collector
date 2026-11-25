@@ -34,6 +34,9 @@ jobs:
           ODPT_API_KEY: ${{ secrets.ODPT_API_KEY }}
         run: python collect_bus_delay.py
 
+      - name: Generate analysis summary
+        run: python aggregate.py
+
       - name: Commit and push data
         run: |
           git config user.name "github-actions[bot]"
