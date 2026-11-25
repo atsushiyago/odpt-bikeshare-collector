@@ -1,4 +1,4 @@
-name: Collect Bikeshare Status
+name: Collect Bikeshare and Bus Delay Status
 
 on:
   schedule:
@@ -25,10 +25,16 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests gtfs-realtime-bindings
 
-      - name: Run collection script
+      - name: Run bikeshare collection script
         run: python collect.py
+
+      - name: Run bus delay collection script
+        env:
+          YOKOHAMA_GTFS_RT_URL: ${{ secrets.YOKOHAMA_GTFS_RT_URL }}
+          ODPT_API_KEY: ${{ secrets.ODPT_API_KEY }}
+        run: python collect_bus_delay.py
 
       - name: Commit and push data
         run: |
@@ -36,7 +42,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/
           if ! git diff --staged --quiet; then
-            git commit -m "chore: update bikeshare status $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git commit -m "chore: update bikeshare and bus delay status $(date -u +'%Y-%m-%d %H:%M UTC')"
             git pull --rebase
             git push
           fi
