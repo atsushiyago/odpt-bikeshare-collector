@@ -1,12 +1,12 @@
 {
   "meta": {
-    "updated_at_jst": "2026-11-26 06:15:22",
+    "updated_at_jst": "2026-11-26 06:30:22",
     "date_range": "2026-11-25 〜 2026-11-26",
-    "total_snapshots": 17,
-    "total_valid_delays": 3383,
-    "overall_available_rate": 72.2,
+    "total_snapshots": 18,
+    "total_valid_delays": 3446,
+    "overall_available_rate": 72.1,
     "overall_empty_rate": 3.9,
-    "overall_no_port_rate": 23.8
+    "overall_no_port_rate": 24.0
   },
   "problem_stops": [
     {
@@ -457,12 +457,12 @@
     },
     {
       "hour": 6,
-      "delay_count": 109,
+      "delay_count": 172,
       "avg_delay_min": 3.9,
-      "available_count": 90,
-      "empty_count": 3,
-      "no_port_count": 16,
-      "available_rate": 82.6
+      "available_count": 130,
+      "empty_count": 5,
+      "no_port_count": 37,
+      "available_rate": 75.6
     },
     {
       "hour": 7,
@@ -674,6 +674,15 @@
       "no_port_rate": 23.5
     },
     {
+      "route_id": "105",
+      "route_name": "105系統",
+      "delay_count": 132,
+      "avg_delay_min": 5.2,
+      "available_rate": 62.1,
+      "empty_rate": 0.8,
+      "no_port_rate": 37.1
+    },
+    {
       "route_id": "104",
       "route_name": "104系統",
       "delay_count": 128,
@@ -681,15 +690,6 @@
       "available_rate": 75.8,
       "empty_rate": 6.2,
       "no_port_rate": 18.0
-    },
-    {
-      "route_id": "105",
-      "route_name": "105系統",
-      "delay_count": 127,
-      "avg_delay_min": 5.2,
-      "available_rate": 60.6,
-      "empty_rate": 0.8,
-      "no_port_rate": 38.6
     },
     {
       "route_id": "039",
@@ -703,20 +703,20 @@
     {
       "route_id": "103",
       "route_name": "103系統",
-      "delay_count": 95,
+      "delay_count": 98,
       "avg_delay_min": 4.0,
-      "available_rate": 75.8,
-      "empty_rate": 7.4,
-      "no_port_rate": 16.8
+      "available_rate": 75.5,
+      "empty_rate": 7.1,
+      "no_port_rate": 17.3
     },
     {
       "route_id": "025",
       "route_name": "025系統",
-      "delay_count": 93,
+      "delay_count": 96,
       "avg_delay_min": 4.4,
-      "available_rate": 69.9,
-      "empty_rate": 2.2,
-      "no_port_rate": 28.0
+      "available_rate": 69.8,
+      "empty_rate": 2.1,
+      "no_port_rate": 28.1
     },
     {
       "route_id": "008",
@@ -737,13 +737,22 @@
       "no_port_rate": 15.5
     },
     {
+      "route_id": "007",
+      "route_name": "007系統",
+      "delay_count": 71,
+      "avg_delay_min": 5.6,
+      "available_rate": 67.6,
+      "empty_rate": 7.0,
+      "no_port_rate": 25.4
+    },
+    {
       "route_id": "026",
       "route_name": "026系統",
-      "delay_count": 69,
+      "delay_count": 71,
       "avg_delay_min": 4.6,
-      "available_rate": 71.0,
+      "available_rate": 69.0,
       "empty_rate": 0.0,
-      "no_port_rate": 29.0
+      "no_port_rate": 31.0
     },
     {
       "route_id": "087",
@@ -755,15 +764,6 @@
       "no_port_rate": 17.6
     },
     {
-      "route_id": "007",
-      "route_name": "007系統",
-      "delay_count": 68,
-      "avg_delay_min": 5.6,
-      "available_rate": 67.6,
-      "empty_rate": 5.9,
-      "no_port_rate": 26.5
-    },
-    {
       "route_id": "079",
       "route_name": "079系統",
       "delay_count": 68,
@@ -771,6 +771,15 @@
       "available_rate": 66.2,
       "empty_rate": 5.9,
       "no_port_rate": 27.9
+    },
+    {
+      "route_id": "065",
+      "route_name": "065系統",
+      "delay_count": 68,
+      "avg_delay_min": 4.3,
+      "available_rate": 75.0,
+      "empty_rate": 0.0,
+      "no_port_rate": 25.0
     },
     {
       "route_id": "038",
@@ -782,15 +791,6 @@
       "no_port_rate": 17.7
     },
     {
-      "route_id": "065",
-      "route_name": "065系統",
-      "delay_count": 62,
-      "avg_delay_min": 4.4,
-      "available_rate": 75.8,
-      "empty_rate": 0.0,
-      "no_port_rate": 24.2
-    },
-    {
       "route_id": "181",
       "route_name": "181系統",
       "delay_count": 54,
@@ -800,6 +800,15 @@
       "no_port_rate": 51.9
     },
     {
+      "route_id": "068",
+      "route_name": "068系統",
+      "delay_count": 52,
+      "avg_delay_min": 6.1,
+      "available_rate": 88.5,
+      "empty_rate": 0.0,
+      "no_port_rate": 11.5
+    },
+    {
       "route_id": "102",
       "route_name": "102系統",
       "delay_count": 51,
@@ -807,15 +816,6 @@
       "available_rate": 92.2,
       "empty_rate": 0.0,
       "no_port_rate": 7.8
-    },
-    {
-      "route_id": "068",
-      "route_name": "068系統",
-      "delay_count": 49,
-      "avg_delay_min": 6.2,
-      "available_rate": 89.8,
-      "empty_rate": 0.0,
-      "no_port_rate": 10.2
     },
     {
       "route_id": "111",
@@ -845,6 +845,15 @@
       "no_port_rate": 25.0
     },
     {
+      "route_id": "035",
+      "route_name": "035系統",
+      "delay_count": 41,
+      "avg_delay_min": 3.7,
+      "available_rate": 85.4,
+      "empty_rate": 0.0,
+      "no_port_rate": 14.6
+    },
+    {
       "route_id": "051",
       "route_name": "051系統",
       "delay_count": 41,
@@ -861,15 +870,6 @@
       "available_rate": 57.5,
       "empty_rate": 0.0,
       "no_port_rate": 42.5
-    },
-    {
-      "route_id": "035",
-      "route_name": "035系統",
-      "delay_count": 38,
-      "avg_delay_min": 3.5,
-      "available_rate": 84.2,
-      "empty_rate": 0.0,
-      "no_port_rate": 15.8
     },
     {
       "route_id": "017",
@@ -893,13 +893,13 @@
   "segments": {
     "all": {
       "meta": {
-        "updated_at_jst": "2026-11-26 06:15:22",
+        "updated_at_jst": "2026-11-26 06:30:22",
         "date_range": "2026-11-25 〜 2026-11-26",
-        "total_snapshots": 17,
-        "total_valid_delays": 3383,
-        "overall_available_rate": 72.2,
+        "total_snapshots": 18,
+        "total_valid_delays": 3446,
+        "overall_available_rate": 72.1,
         "overall_empty_rate": 3.9,
-        "overall_no_port_rate": 23.8
+        "overall_no_port_rate": 24.0
       },
       "problem_stops": [
         {
@@ -1350,12 +1350,12 @@
         },
         {
           "hour": 6,
-          "delay_count": 109,
+          "delay_count": 172,
           "avg_delay_min": 3.9,
-          "available_count": 90,
-          "empty_count": 3,
-          "no_port_count": 16,
-          "available_rate": 82.6
+          "available_count": 130,
+          "empty_count": 5,
+          "no_port_count": 37,
+          "available_rate": 75.6
         },
         {
           "hour": 7,
@@ -1567,6 +1567,15 @@
           "no_port_rate": 23.5
         },
         {
+          "route_id": "105",
+          "route_name": "105系統",
+          "delay_count": 132,
+          "avg_delay_min": 5.2,
+          "available_rate": 62.1,
+          "empty_rate": 0.8,
+          "no_port_rate": 37.1
+        },
+        {
           "route_id": "104",
           "route_name": "104系統",
           "delay_count": 128,
@@ -1574,15 +1583,6 @@
           "available_rate": 75.8,
           "empty_rate": 6.2,
           "no_port_rate": 18.0
-        },
-        {
-          "route_id": "105",
-          "route_name": "105系統",
-          "delay_count": 127,
-          "avg_delay_min": 5.2,
-          "available_rate": 60.6,
-          "empty_rate": 0.8,
-          "no_port_rate": 38.6
         },
         {
           "route_id": "039",
@@ -1596,20 +1596,20 @@
         {
           "route_id": "103",
           "route_name": "103系統",
-          "delay_count": 95,
+          "delay_count": 98,
           "avg_delay_min": 4.0,
-          "available_rate": 75.8,
-          "empty_rate": 7.4,
-          "no_port_rate": 16.8
+          "available_rate": 75.5,
+          "empty_rate": 7.1,
+          "no_port_rate": 17.3
         },
         {
           "route_id": "025",
           "route_name": "025系統",
-          "delay_count": 93,
+          "delay_count": 96,
           "avg_delay_min": 4.4,
-          "available_rate": 69.9,
-          "empty_rate": 2.2,
-          "no_port_rate": 28.0
+          "available_rate": 69.8,
+          "empty_rate": 2.1,
+          "no_port_rate": 28.1
         },
         {
           "route_id": "008",
@@ -1630,13 +1630,22 @@
           "no_port_rate": 15.5
         },
         {
+          "route_id": "007",
+          "route_name": "007系統",
+          "delay_count": 71,
+          "avg_delay_min": 5.6,
+          "available_rate": 67.6,
+          "empty_rate": 7.0,
+          "no_port_rate": 25.4
+        },
+        {
           "route_id": "026",
           "route_name": "026系統",
-          "delay_count": 69,
+          "delay_count": 71,
           "avg_delay_min": 4.6,
-          "available_rate": 71.0,
+          "available_rate": 69.0,
           "empty_rate": 0.0,
-          "no_port_rate": 29.0
+          "no_port_rate": 31.0
         },
         {
           "route_id": "087",
@@ -1648,15 +1657,6 @@
           "no_port_rate": 17.6
         },
         {
-          "route_id": "007",
-          "route_name": "007系統",
-          "delay_count": 68,
-          "avg_delay_min": 5.6,
-          "available_rate": 67.6,
-          "empty_rate": 5.9,
-          "no_port_rate": 26.5
-        },
-        {
           "route_id": "079",
           "route_name": "079系統",
           "delay_count": 68,
@@ -1664,6 +1664,15 @@
           "available_rate": 66.2,
           "empty_rate": 5.9,
           "no_port_rate": 27.9
+        },
+        {
+          "route_id": "065",
+          "route_name": "065系統",
+          "delay_count": 68,
+          "avg_delay_min": 4.3,
+          "available_rate": 75.0,
+          "empty_rate": 0.0,
+          "no_port_rate": 25.0
         },
         {
           "route_id": "038",
@@ -1675,15 +1684,6 @@
           "no_port_rate": 17.7
         },
         {
-          "route_id": "065",
-          "route_name": "065系統",
-          "delay_count": 62,
-          "avg_delay_min": 4.4,
-          "available_rate": 75.8,
-          "empty_rate": 0.0,
-          "no_port_rate": 24.2
-        },
-        {
           "route_id": "181",
           "route_name": "181系統",
           "delay_count": 54,
@@ -1693,6 +1693,15 @@
           "no_port_rate": 51.9
         },
         {
+          "route_id": "068",
+          "route_name": "068系統",
+          "delay_count": 52,
+          "avg_delay_min": 6.1,
+          "available_rate": 88.5,
+          "empty_rate": 0.0,
+          "no_port_rate": 11.5
+        },
+        {
           "route_id": "102",
           "route_name": "102系統",
           "delay_count": 51,
@@ -1700,15 +1709,6 @@
           "available_rate": 92.2,
           "empty_rate": 0.0,
           "no_port_rate": 7.8
-        },
-        {
-          "route_id": "068",
-          "route_name": "068系統",
-          "delay_count": 49,
-          "avg_delay_min": 6.2,
-          "available_rate": 89.8,
-          "empty_rate": 0.0,
-          "no_port_rate": 10.2
         },
         {
           "route_id": "111",
@@ -1738,6 +1738,15 @@
           "no_port_rate": 25.0
         },
         {
+          "route_id": "035",
+          "route_name": "035系統",
+          "delay_count": 41,
+          "avg_delay_min": 3.7,
+          "available_rate": 85.4,
+          "empty_rate": 0.0,
+          "no_port_rate": 14.6
+        },
+        {
           "route_id": "051",
           "route_name": "051系統",
           "delay_count": 41,
@@ -1754,15 +1763,6 @@
           "available_rate": 57.5,
           "empty_rate": 0.0,
           "no_port_rate": 42.5
-        },
-        {
-          "route_id": "035",
-          "route_name": "035系統",
-          "delay_count": 38,
-          "avg_delay_min": 3.5,
-          "available_rate": 84.2,
-          "empty_rate": 0.0,
-          "no_port_rate": 15.8
         },
         {
           "route_id": "017",
@@ -1786,13 +1786,13 @@
     },
     "weekday": {
       "meta": {
-        "updated_at_jst": "2026-11-26 06:15:22",
+        "updated_at_jst": "2026-11-26 06:30:22",
         "date_range": "2026-11-25 〜 2026-11-26",
-        "total_snapshots": 17,
-        "total_valid_delays": 3383,
-        "overall_available_rate": 72.2,
+        "total_snapshots": 18,
+        "total_valid_delays": 3446,
+        "overall_available_rate": 72.1,
         "overall_empty_rate": 3.9,
-        "overall_no_port_rate": 23.8
+        "overall_no_port_rate": 24.0
       },
       "problem_stops": [
         {
@@ -2243,12 +2243,12 @@
         },
         {
           "hour": 6,
-          "delay_count": 109,
+          "delay_count": 172,
           "avg_delay_min": 3.9,
-          "available_count": 90,
-          "empty_count": 3,
-          "no_port_count": 16,
-          "available_rate": 82.6
+          "available_count": 130,
+          "empty_count": 5,
+          "no_port_count": 37,
+          "available_rate": 75.6
         },
         {
           "hour": 7,
@@ -2460,6 +2460,15 @@
           "no_port_rate": 23.5
         },
         {
+          "route_id": "105",
+          "route_name": "105系統",
+          "delay_count": 132,
+          "avg_delay_min": 5.2,
+          "available_rate": 62.1,
+          "empty_rate": 0.8,
+          "no_port_rate": 37.1
+        },
+        {
           "route_id": "104",
           "route_name": "104系統",
           "delay_count": 128,
@@ -2467,15 +2476,6 @@
           "available_rate": 75.8,
           "empty_rate": 6.2,
           "no_port_rate": 18.0
-        },
-        {
-          "route_id": "105",
-          "route_name": "105系統",
-          "delay_count": 127,
-          "avg_delay_min": 5.2,
-          "available_rate": 60.6,
-          "empty_rate": 0.8,
-          "no_port_rate": 38.6
         },
         {
           "route_id": "039",
@@ -2489,20 +2489,20 @@
         {
           "route_id": "103",
           "route_name": "103系統",
-          "delay_count": 95,
+          "delay_count": 98,
           "avg_delay_min": 4.0,
-          "available_rate": 75.8,
-          "empty_rate": 7.4,
-          "no_port_rate": 16.8
+          "available_rate": 75.5,
+          "empty_rate": 7.1,
+          "no_port_rate": 17.3
         },
         {
           "route_id": "025",
           "route_name": "025系統",
-          "delay_count": 93,
+          "delay_count": 96,
           "avg_delay_min": 4.4,
-          "available_rate": 69.9,
-          "empty_rate": 2.2,
-          "no_port_rate": 28.0
+          "available_rate": 69.8,
+          "empty_rate": 2.1,
+          "no_port_rate": 28.1
         },
         {
           "route_id": "008",
@@ -2523,13 +2523,22 @@
           "no_port_rate": 15.5
         },
         {
+          "route_id": "007",
+          "route_name": "007系統",
+          "delay_count": 71,
+          "avg_delay_min": 5.6,
+          "available_rate": 67.6,
+          "empty_rate": 7.0,
+          "no_port_rate": 25.4
+        },
+        {
           "route_id": "026",
           "route_name": "026系統",
-          "delay_count": 69,
+          "delay_count": 71,
           "avg_delay_min": 4.6,
-          "available_rate": 71.0,
+          "available_rate": 69.0,
           "empty_rate": 0.0,
-          "no_port_rate": 29.0
+          "no_port_rate": 31.0
         },
         {
           "route_id": "087",
@@ -2541,15 +2550,6 @@
           "no_port_rate": 17.6
         },
         {
-          "route_id": "007",
-          "route_name": "007系統",
-          "delay_count": 68,
-          "avg_delay_min": 5.6,
-          "available_rate": 67.6,
-          "empty_rate": 5.9,
-          "no_port_rate": 26.5
-        },
-        {
           "route_id": "079",
           "route_name": "079系統",
           "delay_count": 68,
@@ -2557,6 +2557,15 @@
           "available_rate": 66.2,
           "empty_rate": 5.9,
           "no_port_rate": 27.9
+        },
+        {
+          "route_id": "065",
+          "route_name": "065系統",
+          "delay_count": 68,
+          "avg_delay_min": 4.3,
+          "available_rate": 75.0,
+          "empty_rate": 0.0,
+          "no_port_rate": 25.0
         },
         {
           "route_id": "038",
@@ -2568,15 +2577,6 @@
           "no_port_rate": 17.7
         },
         {
-          "route_id": "065",
-          "route_name": "065系統",
-          "delay_count": 62,
-          "avg_delay_min": 4.4,
-          "available_rate": 75.8,
-          "empty_rate": 0.0,
-          "no_port_rate": 24.2
-        },
-        {
           "route_id": "181",
           "route_name": "181系統",
           "delay_count": 54,
@@ -2586,6 +2586,15 @@
           "no_port_rate": 51.9
         },
         {
+          "route_id": "068",
+          "route_name": "068系統",
+          "delay_count": 52,
+          "avg_delay_min": 6.1,
+          "available_rate": 88.5,
+          "empty_rate": 0.0,
+          "no_port_rate": 11.5
+        },
+        {
           "route_id": "102",
           "route_name": "102系統",
           "delay_count": 51,
@@ -2593,15 +2602,6 @@
           "available_rate": 92.2,
           "empty_rate": 0.0,
           "no_port_rate": 7.8
-        },
-        {
-          "route_id": "068",
-          "route_name": "068系統",
-          "delay_count": 49,
-          "avg_delay_min": 6.2,
-          "available_rate": 89.8,
-          "empty_rate": 0.0,
-          "no_port_rate": 10.2
         },
         {
           "route_id": "111",
@@ -2631,6 +2631,15 @@
           "no_port_rate": 25.0
         },
         {
+          "route_id": "035",
+          "route_name": "035系統",
+          "delay_count": 41,
+          "avg_delay_min": 3.7,
+          "available_rate": 85.4,
+          "empty_rate": 0.0,
+          "no_port_rate": 14.6
+        },
+        {
           "route_id": "051",
           "route_name": "051系統",
           "delay_count": 41,
@@ -2647,15 +2656,6 @@
           "available_rate": 57.5,
           "empty_rate": 0.0,
           "no_port_rate": 42.5
-        },
-        {
-          "route_id": "035",
-          "route_name": "035系統",
-          "delay_count": 38,
-          "avg_delay_min": 3.5,
-          "available_rate": 84.2,
-          "empty_rate": 0.0,
-          "no_port_rate": 15.8
         },
         {
           "route_id": "017",
@@ -2679,7 +2679,7 @@
     },
     "holiday": {
       "meta": {
-        "updated_at_jst": "2026-11-26 06:15:22",
+        "updated_at_jst": "2026-11-26 06:30:22",
         "date_range": "",
         "total_snapshots": 0,
         "total_valid_delays": 0,
