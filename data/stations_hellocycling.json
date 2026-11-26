@@ -11305,6 +11305,20 @@
     "capacity": null
   },
   {
+    "station_id": "28370",
+    "name": "ライフ高津新作店",
+    "lat": 35.5867506,
+    "lon": 139.6225901,
+    "capacity": null
+  },
+  {
+    "station_id": "28374",
+    "name": "ライフ川崎京町店",
+    "lat": 35.5081125,
+    "lon": 139.6985174,
+    "capacity": null
+  },
+  {
     "station_id": "2886",
     "name": "湘南モノレール 片瀬山駅",
     "lat": 35.317269,
