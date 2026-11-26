@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updated_at_jst": "2026-11-26 13:15:29",
+    "updated_at_jst": "2026-11-26 13:30:21",
     "date_range": "2026-11-25 〜 2026-11-26",
-    "total_snapshots": 45,
-    "total_valid_delays": 20511,
-    "overall_available_rate": 68.5,
+    "total_snapshots": 46,
+    "total_valid_delays": 21025,
+    "overall_available_rate": 68.4,
     "overall_empty_rate": 5.5,
     "overall_no_port_rate": 26.0
   },
@@ -14,11 +14,11 @@
       "stop_name": "反町",
       "lat": 35.4731559,
       "lon": 139.62846,
-      "delay_count": 103,
-      "avg_delay_min": 6.2,
+      "delay_count": 107,
+      "avg_delay_min": 6.1,
       "available_count": 0,
       "empty_count": 0,
-      "no_port_count": 103,
+      "no_port_count": 107,
       "nearest_port_dist_m": 319,
       "issue_type": "no_port"
     },
@@ -27,11 +27,11 @@
       "stop_name": "横浜本牧駅",
       "lat": 35.41832,
       "lon": 139.6704939,
-      "delay_count": 102,
+      "delay_count": 104,
       "avg_delay_min": 5.7,
       "available_count": 0,
       "empty_count": 0,
-      "no_port_count": 102,
+      "no_port_count": 104,
       "nearest_port_dist_m": 844,
       "issue_type": "no_port"
     },
@@ -40,11 +40,11 @@
       "stop_name": "本牧",
       "lat": 35.4223253,
       "lon": 139.6651495,
-      "delay_count": 73,
+      "delay_count": 75,
       "avg_delay_min": 5.4,
       "available_count": 0,
       "empty_count": 0,
-      "no_port_count": 73,
+      "no_port_count": 75,
       "nearest_port_dist_m": 343,
       "issue_type": "no_port"
     },
@@ -75,42 +75,29 @@
       "issue_type": "no_port"
     },
     {
-      "stop_id": "5845_02",
-      "stop_name": "本牧元町",
-      "lat": 35.4189484,
-      "lon": 139.6691881,
-      "delay_count": 55,
-      "avg_delay_min": 6.3,
-      "available_count": 0,
-      "empty_count": 0,
-      "no_port_count": 55,
-      "nearest_port_dist_m": 735,
-      "issue_type": "no_port"
-    },
-    {
       "stop_id": "5837_02",
       "stop_name": "本牧大里町",
       "lat": 35.419165,
       "lon": 139.6661697,
-      "delay_count": 55,
-      "avg_delay_min": 6.0,
+      "delay_count": 57,
+      "avg_delay_min": 5.9,
       "available_count": 0,
       "empty_count": 0,
-      "no_port_count": 55,
+      "no_port_count": 57,
       "nearest_port_dist_m": 671,
       "issue_type": "no_port"
     },
     {
-      "stop_id": "5034_02",
-      "stop_name": "白山一丁目",
-      "lat": 35.5083139,
-      "lon": 139.5598128,
-      "delay_count": 51,
-      "avg_delay_min": 5.8,
+      "stop_id": "5845_02",
+      "stop_name": "本牧元町",
+      "lat": 35.4189484,
+      "lon": 139.6691881,
+      "delay_count": 56,
+      "avg_delay_min": 6.3,
       "available_count": 0,
       "empty_count": 0,
-      "no_port_count": 51,
-      "nearest_port_dist_m": 368,
+      "no_port_count": 56,
+      "nearest_port_dist_m": 735,
       "issue_type": "no_port"
     },
     {
@@ -118,12 +105,38 @@
       "stop_name": "根岸七曲り下",
       "lat": 35.4184242,
       "lon": 139.6434064,
-      "delay_count": 51,
+      "delay_count": 53,
       "avg_delay_min": 4.9,
       "available_count": 0,
       "empty_count": 0,
-      "no_port_count": 51,
+      "no_port_count": 53,
       "nearest_port_dist_m": 464,
+      "issue_type": "no_port"
+    },
+    {
+      "stop_id": "5034_02",
+      "stop_name": "白山一丁目",
+      "lat": 35.5083139,
+      "lon": 139.5598128,
+      "delay_count": 52,
+      "avg_delay_min": 6.2,
+      "available_count": 0,
+      "empty_count": 0,
+      "no_port_count": 52,
+      "nearest_port_dist_m": 368,
+      "issue_type": "no_port"
+    },
+    {
+      "stop_id": "2068_02",
+      "stop_name": "三溪園入口",
+      "lat": 35.4194311,
+      "lon": 139.6643814,
+      "delay_count": 50,
+      "avg_delay_min": 6.0,
+      "available_count": 0,
+      "empty_count": 0,
+      "no_port_count": 50,
+      "nearest_port_dist_m": 655,
       "issue_type": "no_port"
     },
     {
@@ -140,29 +153,29 @@
       "issue_type": "no_port"
     },
     {
-      "stop_id": "2068_02",
-      "stop_name": "三溪園入口",
-      "lat": 35.4194311,
-      "lon": 139.6643814,
+      "stop_id": "2019_01",
+      "stop_name": "桜道",
+      "lat": 35.4202539,
+      "lon": 139.6639717,
       "delay_count": 49,
       "avg_delay_min": 6.0,
       "available_count": 0,
       "empty_count": 0,
       "no_port_count": 49,
-      "nearest_port_dist_m": 655,
+      "nearest_port_dist_m": 561,
       "issue_type": "no_port"
     },
     {
-      "stop_id": "2019_01",
-      "stop_name": "桜道",
-      "lat": 35.4202539,
-      "lon": 139.6639717,
-      "delay_count": 48,
-      "avg_delay_min": 6.1,
+      "stop_id": "3400_01",
+      "stop_name": "つつじが丘（青葉区）",
+      "lat": 35.5370445,
+      "lon": 139.5171436,
+      "delay_count": 45,
+      "avg_delay_min": 4.3,
       "available_count": 0,
       "empty_count": 0,
-      "no_port_count": 48,
-      "nearest_port_dist_m": 561,
+      "no_port_count": 45,
+      "nearest_port_dist_m": 380,
       "issue_type": "no_port"
     },
     {
@@ -179,30 +192,30 @@
       "issue_type": "no_port"
     },
     {
-      "stop_id": "3400_01",
-      "stop_name": "つつじが丘（青葉区）",
-      "lat": 35.5370445,
-      "lon": 139.5171436,
-      "delay_count": 44,
-      "avg_delay_min": 4.3,
-      "available_count": 0,
-      "empty_count": 0,
-      "no_port_count": 44,
-      "nearest_port_dist_m": 380,
-      "issue_type": "no_port"
-    },
-    {
       "stop_id": "5834_02",
       "stop_name": "本牧１丁目",
       "lat": 35.4312311,
       "lon": 139.6586611,
-      "delay_count": 51,
+      "delay_count": 52,
       "avg_delay_min": 5.2,
       "available_count": 13,
-      "empty_count": 38,
+      "empty_count": 39,
       "no_port_count": 0,
       "nearest_port_dist_m": 57,
       "issue_type": "empty"
+    },
+    {
+      "stop_id": "1240_01",
+      "stop_name": "岸谷公園入口",
+      "lat": 35.4979725,
+      "lon": 139.6650136,
+      "delay_count": 39,
+      "avg_delay_min": 5.5,
+      "available_count": 0,
+      "empty_count": 0,
+      "no_port_count": 39,
+      "nearest_port_dist_m": 385,
+      "issue_type": "no_port"
     },
     {
       "stop_id": "0625_03",
@@ -231,17 +244,30 @@
       "issue_type": "no_port"
     },
     {
-      "stop_id": "1240_01",
-      "stop_name": "岸谷公園入口",
-      "lat": 35.4979725,
-      "lon": 139.6650136,
+      "stop_id": "2200_01",
+      "stop_name": "しらとり台",
+      "lat": 35.5343389,
+      "lon": 139.5173925,
       "delay_count": 38,
-      "avg_delay_min": 5.5,
+      "avg_delay_min": 4.3,
       "available_count": 0,
       "empty_count": 0,
       "no_port_count": 38,
-      "nearest_port_dist_m": 385,
+      "nearest_port_dist_m": 358,
       "issue_type": "no_port"
+    },
+    {
+      "stop_id": "5850_02",
+      "stop_name": "本牧２丁目",
+      "lat": 35.4304247,
+      "lon": 139.6608364,
+      "delay_count": 53,
+      "avg_delay_min": 5.2,
+      "available_count": 16,
+      "empty_count": 37,
+      "no_port_count": 0,
+      "nearest_port_dist_m": 271,
+      "issue_type": "empty"
     },
     {
       "stop_id": "0014_02",
@@ -283,29 +309,29 @@
       "issue_type": "no_port"
     },
     {
-      "stop_id": "2200_01",
-      "stop_name": "しらとり台",
-      "lat": 35.5343389,
-      "lon": 139.5173925,
+      "stop_id": "6802_01",
+      "stop_name": "元町",
+      "lat": 35.437987,
+      "lon": 139.6454695,
       "delay_count": 37,
-      "avg_delay_min": 4.3,
+      "avg_delay_min": 5.1,
       "available_count": 0,
       "empty_count": 0,
       "no_port_count": 37,
-      "nearest_port_dist_m": 358,
+      "nearest_port_dist_m": 322,
       "issue_type": "no_port"
     },
     {
-      "stop_id": "5850_02",
-      "stop_name": "本牧２丁目",
-      "lat": 35.4304247,
-      "lon": 139.6608364,
-      "delay_count": 52,
+      "stop_id": "5846_02",
+      "stop_name": "本郷町",
+      "lat": 35.4320756,
+      "lon": 139.6563639,
+      "delay_count": 48,
       "avg_delay_min": 5.3,
-      "available_count": 16,
+      "available_count": 12,
       "empty_count": 36,
       "no_port_count": 0,
-      "nearest_port_dist_m": 271,
+      "nearest_port_dist_m": 176,
       "issue_type": "empty"
     },
     {
@@ -322,16 +348,16 @@
       "issue_type": "no_port"
     },
     {
-      "stop_id": "6802_01",
-      "stop_name": "元町",
-      "lat": 35.437987,
-      "lon": 139.6454695,
+      "stop_id": "1409_01",
+      "stop_name": "楠町",
+      "lat": 35.4678503,
+      "lon": 139.6138314,
       "delay_count": 36,
-      "avg_delay_min": 5.1,
+      "avg_delay_min": 5.3,
       "available_count": 0,
       "empty_count": 0,
       "no_port_count": 36,
-      "nearest_port_dist_m": 322,
+      "nearest_port_dist_m": 315,
       "issue_type": "no_port"
     },
     {
@@ -348,41 +374,15 @@
       "issue_type": "empty"
     },
     {
-      "stop_id": "5846_02",
-      "stop_name": "本郷町",
-      "lat": 35.4320756,
-      "lon": 139.6563639,
-      "delay_count": 47,
-      "avg_delay_min": 5.3,
-      "available_count": 12,
-      "empty_count": 35,
-      "no_port_count": 0,
-      "nearest_port_dist_m": 176,
-      "issue_type": "empty"
-    },
-    {
-      "stop_id": "1409_01",
-      "stop_name": "楠町",
-      "lat": 35.4678503,
-      "lon": 139.6138314,
-      "delay_count": 35,
-      "avg_delay_min": 5.3,
-      "available_count": 0,
-      "empty_count": 0,
-      "no_port_count": 35,
-      "nearest_port_dist_m": 315,
-      "issue_type": "no_port"
-    },
-    {
       "stop_id": "4217_02",
       "stop_name": "二の谷",
       "lat": 35.4208478,
       "lon": 139.657257,
-      "delay_count": 34,
+      "delay_count": 35,
       "avg_delay_min": 5.2,
       "available_count": 0,
       "empty_count": 0,
-      "no_port_count": 34,
+      "no_port_count": 35,
       "nearest_port_dist_m": 304,
       "issue_type": "no_port"
     },
@@ -391,11 +391,11 @@
       "stop_name": "立町",
       "lat": 35.4809864,
       "lon": 139.6355903,
-      "delay_count": 34,
+      "delay_count": 35,
       "avg_delay_min": 4.8,
       "available_count": 0,
       "empty_count": 0,
-      "no_port_count": 34,
+      "no_port_count": 35,
       "nearest_port_dist_m": 322,
       "issue_type": "no_port"
     }
@@ -520,12 +520,12 @@
     },
     {
       "hour": 13,
-      "delay_count": 950,
-      "avg_delay_min": 5.7,
-      "available_count": 622,
-      "empty_count": 96,
-      "no_port_count": 232,
-      "available_rate": 65.5
+      "delay_count": 1464,
+      "avg_delay_min": 5.2,
+      "available_count": 960,
+      "empty_count": 132,
+      "no_port_count": 372,
+      "available_rate": 65.6
     },
     {
       "hour": 14,
@@ -622,29 +622,29 @@
     {
       "route_id": "101",
       "route_name": "101系統",
-      "delay_count": 1247,
+      "delay_count": 1272,
       "avg_delay_min": 5.7,
-      "available_rate": 79.1,
-      "empty_rate": 11.3,
-      "no_port_rate": 9.6
+      "available_rate": 78.7,
+      "empty_rate": 11.6,
+      "no_port_rate": 9.7
     },
     {
       "route_id": "041",
       "route_name": "041系統",
-      "delay_count": 1219,
+      "delay_count": 1225,
       "avg_delay_min": 4.9,
-      "available_rate": 73.9,
+      "available_rate": 74.0,
       "empty_rate": 2.9,
       "no_port_rate": 23.2
     },
     {
       "route_id": "036",
       "route_name": "036系統",
-      "delay_count": 1071,
+      "delay_count": 1106,
       "avg_delay_min": 6.1,
-      "available_rate": 66.0,
+      "available_rate": 66.1,
       "empty_rate": 11.0,
-      "no_port_rate": 23.0
+      "no_port_rate": 22.9
     },
     {
       "route_id": "106",
@@ -658,11 +658,11 @@
     {
       "route_id": "058",
       "route_name": "058系統",
-      "delay_count": 835,
-      "avg_delay_min": 5.0,
-      "available_rate": 85.3,
+      "delay_count": 855,
+      "avg_delay_min": 4.9,
+      "available_rate": 84.9,
       "empty_rate": 2.8,
-      "no_port_rate": 12.0
+      "no_port_rate": 12.3
     },
     {
       "route_id": "181",
@@ -676,29 +676,29 @@
     {
       "route_id": "105",
       "route_name": "105系統",
-      "delay_count": 723,
+      "delay_count": 733,
       "avg_delay_min": 5.5,
-      "available_rate": 72.6,
-      "empty_rate": 5.0,
-      "no_port_rate": 22.4
+      "available_rate": 72.3,
+      "empty_rate": 4.9,
+      "no_port_rate": 22.8
     },
     {
       "route_id": "039",
       "route_name": "039系統",
-      "delay_count": 672,
+      "delay_count": 692,
       "avg_delay_min": 6.2,
-      "available_rate": 69.3,
-      "empty_rate": 9.1,
-      "no_port_rate": 21.6
+      "available_rate": 69.4,
+      "empty_rate": 9.0,
+      "no_port_rate": 21.7
     },
     {
       "route_id": "008",
       "route_name": "008系統",
-      "delay_count": 622,
+      "delay_count": 640,
       "avg_delay_min": 4.9,
-      "available_rate": 74.1,
+      "available_rate": 73.6,
       "empty_rate": 0.8,
-      "no_port_rate": 25.1
+      "no_port_rate": 25.6
     },
     {
       "route_id": "017",
@@ -712,29 +712,29 @@
     {
       "route_id": "079",
       "route_name": "079系統",
-      "delay_count": 501,
+      "delay_count": 513,
       "avg_delay_min": 4.5,
-      "available_rate": 79.4,
+      "available_rate": 79.1,
       "empty_rate": 1.2,
-      "no_port_rate": 19.4
+      "no_port_rate": 19.7
     },
     {
       "route_id": "029",
       "route_name": "029系統",
-      "delay_count": 457,
+      "delay_count": 478,
       "avg_delay_min": 5.1,
-      "available_rate": 68.7,
-      "empty_rate": 8.1,
-      "no_port_rate": 23.2
+      "available_rate": 68.8,
+      "empty_rate": 8.2,
+      "no_port_rate": 23.0
     },
     {
       "route_id": "104",
       "route_name": "104系統",
-      "delay_count": 419,
+      "delay_count": 442,
       "avg_delay_min": 4.1,
       "available_rate": 73.3,
-      "empty_rate": 6.2,
-      "no_port_rate": 20.5
+      "empty_rate": 5.9,
+      "no_port_rate": 20.8
     },
     {
       "route_id": "111",
@@ -757,20 +757,20 @@
     {
       "route_id": "007",
       "route_name": "007系統",
-      "delay_count": 398,
+      "delay_count": 402,
       "avg_delay_min": 4.9,
-      "available_rate": 67.3,
-      "empty_rate": 8.8,
-      "no_port_rate": 23.9
+      "available_rate": 67.7,
+      "empty_rate": 8.7,
+      "no_port_rate": 23.6
     },
     {
       "route_id": "013",
       "route_name": "013系統",
-      "delay_count": 376,
+      "delay_count": 395,
       "avg_delay_min": 4.5,
-      "available_rate": 72.9,
-      "empty_rate": 6.9,
-      "no_port_rate": 20.2
+      "available_rate": 72.7,
+      "empty_rate": 6.6,
+      "no_port_rate": 20.8
     },
     {
       "route_id": "021",
@@ -782,6 +782,15 @@
       "no_port_rate": 22.6
     },
     {
+      "route_id": "103",
+      "route_name": "103系統",
+      "delay_count": 348,
+      "avg_delay_min": 4.0,
+      "available_rate": 75.3,
+      "empty_rate": 11.5,
+      "no_port_rate": 13.2
+    },
+    {
       "route_id": "038",
       "route_name": "038系統",
       "delay_count": 344,
@@ -791,22 +800,13 @@
       "no_port_rate": 18.6
     },
     {
-      "route_id": "103",
-      "route_name": "103系統",
-      "delay_count": 335,
-      "avg_delay_min": 4.0,
-      "available_rate": 74.9,
-      "empty_rate": 11.9,
-      "no_port_rate": 13.1
-    },
-    {
       "route_id": "025",
       "route_name": "025系統",
-      "delay_count": 327,
+      "delay_count": 332,
       "avg_delay_min": 4.8,
-      "available_rate": 67.3,
-      "empty_rate": 8.3,
-      "no_port_rate": 24.5
+      "available_rate": 67.2,
+      "empty_rate": 8.4,
+      "no_port_rate": 24.4
     },
     {
       "route_id": "065",
@@ -820,20 +820,29 @@
     {
       "route_id": "026",
       "route_name": "026系統",
-      "delay_count": 266,
+      "delay_count": 281,
       "avg_delay_min": 4.4,
-      "available_rate": 69.5,
+      "available_rate": 69.4,
       "empty_rate": 0.0,
-      "no_port_rate": 30.5
+      "no_port_rate": 30.6
     },
     {
       "route_id": "102",
       "route_name": "102系統",
-      "delay_count": 257,
+      "delay_count": 276,
       "avg_delay_min": 4.2,
-      "available_rate": 88.7,
-      "empty_rate": 5.1,
-      "no_port_rate": 6.2
+      "available_rate": 88.0,
+      "empty_rate": 5.4,
+      "no_port_rate": 6.5
+    },
+    {
+      "route_id": "059",
+      "route_name": "059系統",
+      "delay_count": 216,
+      "avg_delay_min": 4.9,
+      "available_rate": 50.0,
+      "empty_rate": 23.1,
+      "no_port_rate": 26.9
     },
     {
       "route_id": "050",
@@ -845,6 +854,24 @@
       "no_port_rate": 13.7
     },
     {
+      "route_id": "012",
+      "route_name": "012系統",
+      "delay_count": 203,
+      "avg_delay_min": 5.6,
+      "available_rate": 65.5,
+      "empty_rate": 0.0,
+      "no_port_rate": 34.5
+    },
+    {
+      "route_id": "023",
+      "route_name": "023系統",
+      "delay_count": 201,
+      "avg_delay_min": 4.0,
+      "available_rate": 70.1,
+      "empty_rate": 0.0,
+      "no_port_rate": 29.9
+    },
+    {
       "route_id": "009",
       "route_name": "009系統",
       "delay_count": 199,
@@ -854,50 +881,23 @@
       "no_port_rate": 18.1
     },
     {
-      "route_id": "012",
-      "route_name": "012系統",
-      "delay_count": 197,
-      "avg_delay_min": 5.7,
-      "available_rate": 65.0,
-      "empty_rate": 0.0,
-      "no_port_rate": 35.0
-    },
-    {
-      "route_id": "023",
-      "route_name": "023系統",
-      "delay_count": 196,
+      "route_id": "051",
+      "route_name": "051系統",
+      "delay_count": 190,
       "avg_delay_min": 4.0,
-      "available_rate": 70.4,
+      "available_rate": 77.9,
       "empty_rate": 0.0,
-      "no_port_rate": 29.6
-    },
-    {
-      "route_id": "059",
-      "route_name": "059系統",
-      "delay_count": 195,
-      "avg_delay_min": 5.0,
-      "available_rate": 51.3,
-      "empty_rate": 22.6,
-      "no_port_rate": 26.2
-    },
-    {
-      "route_id": "068",
-      "route_name": "068系統",
-      "delay_count": 187,
-      "avg_delay_min": 4.6,
-      "available_rate": 77.0,
-      "empty_rate": 10.7,
-      "no_port_rate": 12.3
+      "no_port_rate": 22.1
     }
   ],
   "segments": {
     "all": {
       "meta": {
-        "updated_at_jst": "2026-11-26 13:15:29",
+        "updated_at_jst": "2026-11-26 13:30:21",
         "date_range": "2026-11-25 〜 2026-11-26",
-        "total_snapshots": 45,
-        "total_valid_delays": 20511,
-        "overall_available_rate": 68.5,
+        "total_snapshots": 46,
+        "total_valid_delays": 21025,
+        "overall_available_rate": 68.4,
         "overall_empty_rate": 5.5,
         "overall_no_port_rate": 26.0
       },
@@ -907,11 +907,11 @@
           "stop_name": "反町",
           "lat": 35.4731559,
           "lon": 139.62846,
-          "delay_count": 103,
-          "avg_delay_min": 6.2,
+          "delay_count": 107,
+          "avg_delay_min": 6.1,
           "available_count": 0,
           "empty_count": 0,
-          "no_port_count": 103,
+          "no_port_count": 107,
           "nearest_port_dist_m": 319,
           "issue_type": "no_port"
         },
@@ -920,11 +920,11 @@
           "stop_name": "横浜本牧駅",
           "lat": 35.41832,
           "lon": 139.6704939,
-          "delay_count": 102,
+          "delay_count": 104,
           "avg_delay_min": 5.7,
           "available_count": 0,
           "empty_count": 0,
-          "no_port_count": 102,
+          "no_port_count": 104,
           "nearest_port_dist_m": 844,
           "issue_type": "no_port"
         },
@@ -933,11 +933,11 @@
           "stop_name": "本牧",
           "lat": 35.4223253,
           "lon": 139.6651495,
-          "delay_count": 73,
+          "delay_count": 75,
           "avg_delay_min": 5.4,
           "available_count": 0,
           "empty_count": 0,
-          "no_port_count": 73,
+          "no_port_count": 75,
           "nearest_port_dist_m": 343,
           "issue_type": "no_port"
         },
@@ -968,42 +968,29 @@
           "issue_type": "no_port"
         },
         {
-          "stop_id": "5845_02",
-          "stop_name": "本牧元町",
-          "lat": 35.4189484,
-          "lon": 139.6691881,
-          "delay_count": 55,
-          "avg_delay_min": 6.3,
-          "available_count": 0,
-          "empty_count": 0,
-          "no_port_count": 55,
-          "nearest_port_dist_m": 735,
-          "issue_type": "no_port"
-        },
-        {
           "stop_id": "5837_02",
           "stop_name": "本牧大里町",
           "lat": 35.419165,
           "lon": 139.6661697,
-          "delay_count": 55,
-          "avg_delay_min": 6.0,
+          "delay_count": 57,
+          "avg_delay_min": 5.9,
           "available_count": 0,
           "empty_count": 0,
-          "no_port_count": 55,
+          "no_port_count": 57,
           "nearest_port_dist_m": 671,
           "issue_type": "no_port"
         },
         {
-          "stop_id": "5034_02",
-          "stop_name": "白山一丁目",
-          "lat": 35.5083139,
-          "lon": 139.5598128,
-          "delay_count": 51,
-          "avg_delay_min": 5.8,
+          "stop_id": "5845_02",
+          "stop_name": "本牧元町",
+          "lat": 35.4189484,
+          "lon": 139.6691881,
+          "delay_count": 56,
+          "avg_delay_min": 6.3,
           "available_count": 0,
           "empty_count": 0,
-          "no_port_count": 51,
-          "nearest_port_dist_m": 368,
+          "no_port_count": 56,
+          "nearest_port_dist_m": 735,
           "issue_type": "no_port"
         },
         {
@@ -1011,12 +998,38 @@
           "stop_name": "根岸七曲り下",
           "lat": 35.4184242,
           "lon": 139.6434064,
-          "delay_count": 51,
+          "delay_count": 53,
           "avg_delay_min": 4.9,
           "available_count": 0,
           "empty_count": 0,
-          "no_port_count": 51,
+          "no_port_count": 53,
           "nearest_port_dist_m": 464,
+          "issue_type": "no_port"
+        },
+        {
+          "stop_id": "5034_02",
+          "stop_name": "白山一丁目",
+          "lat": 35.5083139,
+          "lon": 139.5598128,
+          "delay_count": 52,
+          "avg_delay_min": 6.2,
+          "available_count": 0,
+          "empty_count": 0,
+          "no_port_count": 52,
+          "nearest_port_dist_m": 368,
+          "issue_type": "no_port"
+        },
+        {
+          "stop_id": "2068_02",
+          "stop_name": "三溪園入口",
+          "lat": 35.4194311,
+          "lon": 139.6643814,
+          "delay_count": 50,
+          "avg_delay_min": 6.0,
+          "available_count": 0,
+          "empty_count": 0,
+          "no_port_count": 50,
+          "nearest_port_dist_m": 655,
           "issue_type": "no_port"
         },
         {
@@ -1033,29 +1046,29 @@
           "issue_type": "no_port"
         },
         {
-          "stop_id": "2068_02",
-          "stop_name": "三溪園入口",
-          "lat": 35.4194311,
-          "lon": 139.6643814,
+          "stop_id": "2019_01",
+          "stop_name": "桜道",
+          "lat": 35.4202539,
+          "lon": 139.6639717,
           "delay_count": 49,
           "avg_delay_min": 6.0,
           "available_count": 0,
           "empty_count": 0,
           "no_port_count": 49,
-          "nearest_port_dist_m": 655,
+          "nearest_port_dist_m": 561,
           "issue_type": "no_port"
         },
         {
-          "stop_id": "2019_01",
-          "stop_name": "桜道",
-          "lat": 35.4202539,
-          "lon": 139.6639717,
-          "delay_count": 48,
-          "avg_delay_min": 6.1,
+          "stop_id": "3400_01",
+          "stop_name": "つつじが丘（青葉区）",
+          "lat": 35.5370445,
+          "lon": 139.5171436,
+          "delay_count": 45,
+          "avg_delay_min": 4.3,
           "available_count": 0,
           "empty_count": 0,
-          "no_port_count": 48,
-          "nearest_port_dist_m": 561,
+          "no_port_count": 45,
+          "nearest_port_dist_m": 380,
           "issue_type": "no_port"
         },
         {
@@ -1072,30 +1085,30 @@
           "issue_type": "no_port"
         },
         {
-          "stop_id": "3400_01",
-          "stop_name": "つつじが丘（青葉区）",
-          "lat": 35.5370445,
-          "lon": 139.5171436,
-          "delay_count": 44,
-          "avg_delay_min": 4.3,
-          "available_count": 0,
-          "empty_count": 0,
-          "no_port_count": 44,
-          "nearest_port_dist_m": 380,
-          "issue_type": "no_port"
-        },
-        {
           "stop_id": "5834_02",
           "stop_name": "本牧１丁目",
           "lat": 35.4312311,
           "lon": 139.6586611,
-          "delay_count": 51,
+          "delay_count": 52,
           "avg_delay_min": 5.2,
           "available_count": 13,
-          "empty_count": 38,
+          "empty_count": 39,
           "no_port_count": 0,
           "nearest_port_dist_m": 57,
           "issue_type": "empty"
+        },
+        {
+          "stop_id": "1240_01",
+          "stop_name": "岸谷公園入口",
+          "lat": 35.4979725,
+          "lon": 139.6650136,
+          "delay_count": 39,
+          "avg_delay_min": 5.5,
+          "available_count": 0,
+          "empty_count": 0,
+          "no_port_count": 39,
+          "nearest_port_dist_m": 385,
+          "issue_type": "no_port"
         },
         {
           "stop_id": "0625_03",
@@ -1124,17 +1137,30 @@
           "issue_type": "no_port"
         },
         {
-          "stop_id": "1240_01",
-          "stop_name": "岸谷公園入口",
-          "lat": 35.4979725,
-          "lon": 139.6650136,
+          "stop_id": "2200_01",
+          "stop_name": "しらとり台",
+          "lat": 35.5343389,
+          "lon": 139.5173925,
           "delay_count": 38,
-          "avg_delay_min": 5.5,
+          "avg_delay_min": 4.3,
           "available_count": 0,
           "empty_count": 0,
           "no_port_count": 38,
-          "nearest_port_dist_m": 385,
+          "nearest_port_dist_m": 358,
           "issue_type": "no_port"
+        },
+        {
+          "stop_id": "5850_02",
+          "stop_name": "本牧２丁目",
+          "lat": 35.4304247,
+          "lon": 139.6608364,
+          "delay_count": 53,
+          "avg_delay_min": 5.2,
+          "available_count": 16,
+          "empty_count": 37,
+          "no_port_count": 0,
+          "nearest_port_dist_m": 271,
+          "issue_type": "empty"
         },
         {
           "stop_id": "0014_02",
@@ -1176,29 +1202,29 @@
           "issue_type": "no_port"
         },
         {
-          "stop_id": "2200_01",
-          "stop_name": "しらとり台",
-          "lat": 35.5343389,
-          "lon": 139.5173925,
+          "stop_id": "6802_01",
+          "stop_name": "元町",
+          "lat": 35.437987,
+          "lon": 139.6454695,
           "delay_count": 37,
-          "avg_delay_min": 4.3,
+          "avg_delay_min": 5.1,
           "available_count": 0,
           "empty_count": 0,
           "no_port_count": 37,
-          "nearest_port_dist_m": 358,
+          "nearest_port_dist_m": 322,
           "issue_type": "no_port"
         },
         {
-          "stop_id": "5850_02",
-          "stop_name": "本牧２丁目",
-          "lat": 35.4304247,
-          "lon": 139.6608364,
-          "delay_count": 52,
+          "stop_id": "5846_02",
+          "stop_name": "本郷町",
+          "lat": 35.4320756,
+          "lon": 139.6563639,
+          "delay_count": 48,
           "avg_delay_min": 5.3,
-          "available_count": 16,
+          "available_count": 12,
           "empty_count": 36,
           "no_port_count": 0,
-          "nearest_port_dist_m": 271,
+          "nearest_port_dist_m": 176,
           "issue_type": "empty"
         },
         {
@@ -1215,16 +1241,16 @@
           "issue_type": "no_port"
         },
         {
-          "stop_id": "6802_01",
-          "stop_name": "元町",
-          "lat": 35.437987,
-          "lon": 139.6454695,
+          "stop_id": "1409_01",
+          "stop_name": "楠町",
+          "lat": 35.4678503,
+          "lon": 139.6138314,
           "delay_count": 36,
-          "avg_delay_min": 5.1,
+          "avg_delay_min": 5.3,
           "available_count": 0,
           "empty_count": 0,
           "no_port_count": 36,
-          "nearest_port_dist_m": 322,
+          "nearest_port_dist_m": 315,
           "issue_type": "no_port"
         },
         {
@@ -1241,41 +1267,15 @@
           "issue_type": "empty"
         },
         {
-          "stop_id": "5846_02",
-          "stop_name": "本郷町",
-          "lat": 35.4320756,
-          "lon": 139.6563639,
-          "delay_count": 47,
-          "avg_delay_min": 5.3,
-          "available_count": 12,
-          "empty_count": 35,
-          "no_port_count": 0,
-          "nearest_port_dist_m": 176,
-          "issue_type": "empty"
-        },
-        {
-          "stop_id": "1409_01",
-          "stop_name": "楠町",
-          "lat": 35.4678503,
-          "lon": 139.6138314,
-          "delay_count": 35,
-          "avg_delay_min": 5.3,
-          "available_count": 0,
-          "empty_count": 0,
-          "no_port_count": 35,
-          "nearest_port_dist_m": 315,
-          "issue_type": "no_port"
-        },
-        {
           "stop_id": "4217_02",
           "stop_name": "二の谷",
           "lat": 35.4208478,
           "lon": 139.657257,
-          "delay_count": 34,
+          "delay_count": 35,
           "avg_delay_min": 5.2,
           "available_count": 0,
           "empty_count": 0,
-          "no_port_count": 34,
+          "no_port_count": 35,
           "nearest_port_dist_m": 304,
           "issue_type": "no_port"
         },
@@ -1284,11 +1284,11 @@
           "stop_name": "立町",
           "lat": 35.4809864,
           "lon": 139.6355903,
-          "delay_count": 34,
+          "delay_count": 35,
           "avg_delay_min": 4.8,
           "available_count": 0,
           "empty_count": 0,
-          "no_port_count": 34,
+          "no_port_count": 35,
           "nearest_port_dist_m": 322,
           "issue_type": "no_port"
         }
@@ -1413,12 +1413,12 @@
         },
         {
           "hour": 13,
-          "delay_count": 950,
-          "avg_delay_min": 5.7,
-          "available_count": 622,
-          "empty_count": 96,
-          "no_port_count": 232,
-          "available_rate": 65.5
+          "delay_count": 1464,
+          "avg_delay_min": 5.2,
+          "available_count": 960,
+          "empty_count": 132,
+          "no_port_count": 372,
+          "available_rate": 65.6
         },
         {
           "hour": 14,
@@ -1515,29 +1515,29 @@
         {
           "route_id": "101",
           "route_name": "101系統",
-          "delay_count": 1247,
+          "delay_count": 1272,
           "avg_delay_min": 5.7,
-          "available_rate": 79.1,
-          "empty_rate": 11.3,
-          "no_port_rate": 9.6
+          "available_rate": 78.7,
+          "empty_rate": 11.6,
+          "no_port_rate": 9.7
         },
         {
           "route_id": "041",
           "route_name": "041系統",
-          "delay_count": 1219,
+          "delay_count": 1225,
           "avg_delay_min": 4.9,
-          "available_rate": 73.9,
+          "available_rate": 74.0,
           "empty_rate": 2.9,
           "no_port_rate": 23.2
         },
         {
           "route_id": "036",
           "route_name": "036系統",
-          "delay_count": 1071,
+          "delay_count": 1106,
           "avg_delay_min": 6.1,
-          "available_rate": 66.0,
+          "available_rate": 66.1,
           "empty_rate": 11.0,
-          "no_port_rate": 23.0
+          "no_port_rate": 22.9
         },
         {
           "route_id": "106",
@@ -1551,11 +1551,11 @@
         {
           "route_id": "058",
           "route_name": "058系統",
-          "delay_count": 835,
-          "avg_delay_min": 5.0,
-          "available_rate": 85.3,
+          "delay_count": 855,
+          "avg_delay_min": 4.9,
+          "available_rate": 84.9,
           "empty_rate": 2.8,
-          "no_port_rate": 12.0
+          "no_port_rate": 12.3
         },
         {
           "route_id": "181",
@@ -1569,29 +1569,29 @@
         {
           "route_id": "105",
           "route_name": "105系統",
-          "delay_count": 723,
+          "delay_count": 733,
           "avg_delay_min": 5.5,
-          "available_rate": 72.6,
-          "empty_rate": 5.0,
-          "no_port_rate": 22.4
+          "available_rate": 72.3,
+          "empty_rate": 4.9,
+          "no_port_rate": 22.8
         },
         {
           "route_id": "039",
           "route_name": "039系統",
-          "delay_count": 672,
+          "delay_count": 692,
           "avg_delay_min": 6.2,
-          "available_rate": 69.3,
-          "empty_rate": 9.1,
-          "no_port_rate": 21.6
+          "available_rate": 69.4,
+          "empty_rate": 9.0,
+          "no_port_rate": 21.7
         },
         {
           "route_id": "008",
           "route_name": "008系統",
-          "delay_count": 622,
+          "delay_count": 640,
           "avg_delay_min": 4.9,
-          "available_rate": 74.1,
+          "available_rate": 73.6,
           "empty_rate": 0.8,
-          "no_port_rate": 25.1
+          "no_port_rate": 25.6
         },
         {
           "route_id": "017",
@@ -1605,29 +1605,29 @@
         {
           "route_id": "079",
           "route_name": "079系統",
-          "delay_count": 501,
+          "delay_count": 513,
           "avg_delay_min": 4.5,
-          "available_rate": 79.4,
+          "available_rate": 79.1,
           "empty_rate": 1.2,
-          "no_port_rate": 19.4
+          "no_port_rate": 19.7
         },
         {
           "route_id": "029",
           "route_name": "029系統",
-          "delay_count": 457,
+          "delay_count": 478,
           "avg_delay_min": 5.1,
-          "available_rate": 68.7,
-          "empty_rate": 8.1,
-          "no_port_rate": 23.2
+          "available_rate": 68.8,
+          "empty_rate": 8.2,
+          "no_port_rate": 23.0
         },
         {
           "route_id": "104",
           "route_name": "104系統",
-          "delay_count": 419,
+          "delay_count": 442,
           "avg_delay_min": 4.1,
           "available_rate": 73.3,
-          "empty_rate": 6.2,
-          "no_port_rate": 20.5
+          "empty_rate": 5.9,
+          "no_port_rate": 20.8
         },
         {
           "route_id": "111",
@@ -1650,20 +1650,20 @@
         {
           "route_id": "007",
           "route_name": "007系統",
-          "delay_count": 398,
+          "delay_count": 402,
           "avg_delay_min": 4.9,
-          "available_rate": 67.3,
-          "empty_rate": 8.8,
-          "no_port_rate": 23.9
+          "available_rate": 67.7,
+          "empty_rate": 8.7,
+          "no_port_rate": 23.6
         },
         {
           "route_id": "013",
           "route_name": "013系統",
-          "delay_count": 376,
+          "delay_count": 395,
           "avg_delay_min": 4.5,
-          "available_rate": 72.9,
-          "empty_rate": 6.9,
-          "no_port_rate": 20.2
+          "available_rate": 72.7,
+          "empty_rate": 6.6,
+          "no_port_rate": 20.8
         },
         {
           "route_id": "021",
@@ -1675,6 +1675,15 @@
           "no_port_rate": 22.6
         },
         {
+          "route_id": "103",
+          "route_name": "103系統",
+          "delay_count": 348,
+          "avg_delay_min": 4.0,
+          "available_rate": 75.3,
+          "empty_rate": 11.5,
+          "no_port_rate": 13.2
+        },
+        {
           "route_id": "038",
           "route_name": "038系統",
           "delay_count": 344,
@@ -1684,22 +1693,13 @@
           "no_port_rate": 18.6
         },
         {
-          "route_id": "103",
-          "route_name": "103系統",
-          "delay_count": 335,
-          "avg_delay_min": 4.0,
-          "available_rate": 74.9,
-          "empty_rate": 11.9,
-          "no_port_rate": 13.1
-        },
-        {
           "route_id": "025",
           "route_name": "025系統",
-          "delay_count": 327,
+          "delay_count": 332,
           "avg_delay_min": 4.8,
-          "available_rate": 67.3,
-          "empty_rate": 8.3,
-          "no_port_rate": 24.5
+          "available_rate": 67.2,
+          "empty_rate": 8.4,
+          "no_port_rate": 24.4
         },
         {
           "route_id": "065",
@@ -1713,20 +1713,29 @@
         {
           "route_id": "026",
           "route_name": "026系統",
-          "delay_count": 266,
+          "delay_count": 281,
           "avg_delay_min": 4.4,
-          "available_rate": 69.5,
+          "available_rate": 69.4,
           "empty_rate": 0.0,
-          "no_port_rate": 30.5
+          "no_port_rate": 30.6
         },
         {
           "route_id": "102",
           "route_name": "102系統",
-          "delay_count": 257,
+          "delay_count": 276,
           "avg_delay_min": 4.2,
-          "available_rate": 88.7,
-          "empty_rate": 5.1,
-          "no_port_rate": 6.2
+          "available_rate": 88.0,
+          "empty_rate": 5.4,
+          "no_port_rate": 6.5
+        },
+        {
+          "route_id": "059",
+          "route_name": "059系統",
+          "delay_count": 216,
+          "avg_delay_min": 4.9,
+          "available_rate": 50.0,
+          "empty_rate": 23.1,
+          "no_port_rate": 26.9
         },
         {
           "route_id": "050",
@@ -1738,6 +1747,24 @@
           "no_port_rate": 13.7
         },
         {
+          "route_id": "012",
+          "route_name": "012系統",
+          "delay_count": 203,
+          "avg_delay_min": 5.6,
+          "available_rate": 65.5,
+          "empty_rate": 0.0,
+          "no_port_rate": 34.5
+        },
+        {
+          "route_id": "023",
+          "route_name": "023系統",
+          "delay_count": 201,
+          "avg_delay_min": 4.0,
+          "available_rate": 70.1,
+          "empty_rate": 0.0,
+          "no_port_rate": 29.9
+        },
+        {
           "route_id": "009",
           "route_name": "009系統",
           "delay_count": 199,
@@ -1747,50 +1774,23 @@
           "no_port_rate": 18.1
         },
         {
-          "route_id": "012",
-          "route_name": "012系統",
-          "delay_count": 197,
-          "avg_delay_min": 5.7,
-          "available_rate": 65.0,
-          "empty_rate": 0.0,
-          "no_port_rate": 35.0
-        },
-        {
-          "route_id": "023",
-          "route_name": "023系統",
-          "delay_count": 196,
+          "route_id": "051",
+          "route_name": "051系統",
+          "delay_count": 190,
           "avg_delay_min": 4.0,
-          "available_rate": 70.4,
+          "available_rate": 77.9,
           "empty_rate": 0.0,
-          "no_port_rate": 29.6
-        },
-        {
-          "route_id": "059",
-          "route_name": "059系統",
-          "delay_count": 195,
-          "avg_delay_min": 5.0,
-          "available_rate": 51.3,
-          "empty_rate": 22.6,
-          "no_port_rate": 26.2
-        },
-        {
-          "route_id": "068",
-          "route_name": "068系統",
-          "delay_count": 187,
-          "avg_delay_min": 4.6,
-          "available_rate": 77.0,
-          "empty_rate": 10.7,
-          "no_port_rate": 12.3
+          "no_port_rate": 22.1
         }
       ]
     },
     "weekday": {
       "meta": {
-        "updated_at_jst": "2026-11-26 13:15:29",
+        "updated_at_jst": "2026-11-26 13:30:21",
         "date_range": "2026-11-25 〜 2026-11-26",
-        "total_snapshots": 45,
-        "total_valid_delays": 20511,
-        "overall_available_rate": 68.5,
+        "total_snapshots": 46,
+        "total_valid_delays": 21025,
+        "overall_available_rate": 68.4,
         "overall_empty_rate": 5.5,
         "overall_no_port_rate": 26.0
       },
@@ -1800,11 +1800,11 @@
           "stop_name": "反町",
           "lat": 35.4731559,
           "lon": 139.62846,
-          "delay_count": 103,
-          "avg_delay_min": 6.2,
+          "delay_count": 107,
+          "avg_delay_min": 6.1,
           "available_count": 0,
           "empty_count": 0,
-          "no_port_count": 103,
+          "no_port_count": 107,
           "nearest_port_dist_m": 319,
           "issue_type": "no_port"
         },
@@ -1813,11 +1813,11 @@
           "stop_name": "横浜本牧駅",
           "lat": 35.41832,
           "lon": 139.6704939,
-          "delay_count": 102,
+          "delay_count": 104,
           "avg_delay_min": 5.7,
           "available_count": 0,
           "empty_count": 0,
-          "no_port_count": 102,
+          "no_port_count": 104,
           "nearest_port_dist_m": 844,
           "issue_type": "no_port"
         },
@@ -1826,11 +1826,11 @@
           "stop_name": "本牧",
           "lat": 35.4223253,
           "lon": 139.6651495,
-          "delay_count": 73,
+          "delay_count": 75,
           "avg_delay_min": 5.4,
           "available_count": 0,
           "empty_count": 0,
-          "no_port_count": 73,
+          "no_port_count": 75,
           "nearest_port_dist_m": 343,
           "issue_type": "no_port"
         },
@@ -1861,42 +1861,29 @@
           "issue_type": "no_port"
         },
         {
-          "stop_id": "5845_02",
-          "stop_name": "本牧元町",
-          "lat": 35.4189484,
-          "lon": 139.6691881,
-          "delay_count": 55,
-          "avg_delay_min": 6.3,
-          "available_count": 0,
-          "empty_count": 0,
-          "no_port_count": 55,
-          "nearest_port_dist_m": 735,
-          "issue_type": "no_port"
-        },
-        {
           "stop_id": "5837_02",
           "stop_name": "本牧大里町",
           "lat": 35.419165,
           "lon": 139.6661697,
-          "delay_count": 55,
-          "avg_delay_min": 6.0,
+          "delay_count": 57,
+          "avg_delay_min": 5.9,
           "available_count": 0,
           "empty_count": 0,
-          "no_port_count": 55,
+          "no_port_count": 57,
           "nearest_port_dist_m": 671,
           "issue_type": "no_port"
         },
         {
-          "stop_id": "5034_02",
-          "stop_name": "白山一丁目",
-          "lat": 35.5083139,
-          "lon": 139.5598128,
-          "delay_count": 51,
-          "avg_delay_min": 5.8,
+          "stop_id": "5845_02",
+          "stop_name": "本牧元町",
+          "lat": 35.4189484,
+          "lon": 139.6691881,
+          "delay_count": 56,
+          "avg_delay_min": 6.3,
           "available_count": 0,
           "empty_count": 0,
-          "no_port_count": 51,
-          "nearest_port_dist_m": 368,
+          "no_port_count": 56,
+          "nearest_port_dist_m": 735,
           "issue_type": "no_port"
         },
         {
@@ -1904,12 +1891,38 @@
           "stop_name": "根岸七曲り下",
           "lat": 35.4184242,
           "lon": 139.6434064,
-          "delay_count": 51,
+          "delay_count": 53,
           "avg_delay_min": 4.9,
           "available_count": 0,
           "empty_count": 0,
-          "no_port_count": 51,
+          "no_port_count": 53,
           "nearest_port_dist_m": 464,
+          "issue_type": "no_port"
+        },
+        {
+          "stop_id": "5034_02",
+          "stop_name": "白山一丁目",
+          "lat": 35.5083139,
+          "lon": 139.5598128,
+          "delay_count": 52,
+          "avg_delay_min": 6.2,
+          "available_count": 0,
+          "empty_count": 0,
+          "no_port_count": 52,
+          "nearest_port_dist_m": 368,
+          "issue_type": "no_port"
+        },
+        {
+          "stop_id": "2068_02",
+          "stop_name": "三溪園入口",
+          "lat": 35.4194311,
+          "lon": 139.6643814,
+          "delay_count": 50,
+          "avg_delay_min": 6.0,
+          "available_count": 0,
+          "empty_count": 0,
+          "no_port_count": 50,
+          "nearest_port_dist_m": 655,
           "issue_type": "no_port"
         },
         {
@@ -1926,29 +1939,29 @@
           "issue_type": "no_port"
         },
         {
-          "stop_id": "2068_02",
-          "stop_name": "三溪園入口",
-          "lat": 35.4194311,
-          "lon": 139.6643814,
+          "stop_id": "2019_01",
+          "stop_name": "桜道",
+          "lat": 35.4202539,
+          "lon": 139.6639717,
           "delay_count": 49,
           "avg_delay_min": 6.0,
           "available_count": 0,
           "empty_count": 0,
           "no_port_count": 49,
-          "nearest_port_dist_m": 655,
+          "nearest_port_dist_m": 561,
           "issue_type": "no_port"
         },
         {
-          "stop_id": "2019_01",
-          "stop_name": "桜道",
-          "lat": 35.4202539,
-          "lon": 139.6639717,
-          "delay_count": 48,
-          "avg_delay_min": 6.1,
+          "stop_id": "3400_01",
+          "stop_name": "つつじが丘（青葉区）",
+          "lat": 35.5370445,
+          "lon": 139.5171436,
+          "delay_count": 45,
+          "avg_delay_min": 4.3,
           "available_count": 0,
           "empty_count": 0,
-          "no_port_count": 48,
-          "nearest_port_dist_m": 561,
+          "no_port_count": 45,
+          "nearest_port_dist_m": 380,
           "issue_type": "no_port"
         },
         {
@@ -1965,30 +1978,30 @@
           "issue_type": "no_port"
         },
         {
-          "stop_id": "3400_01",
-          "stop_name": "つつじが丘（青葉区）",
-          "lat": 35.5370445,
-          "lon": 139.5171436,
-          "delay_count": 44,
-          "avg_delay_min": 4.3,
-          "available_count": 0,
-          "empty_count": 0,
-          "no_port_count": 44,
-          "nearest_port_dist_m": 380,
-          "issue_type": "no_port"
-        },
-        {
           "stop_id": "5834_02",
           "stop_name": "本牧１丁目",
           "lat": 35.4312311,
           "lon": 139.6586611,
-          "delay_count": 51,
+          "delay_count": 52,
           "avg_delay_min": 5.2,
           "available_count": 13,
-          "empty_count": 38,
+          "empty_count": 39,
           "no_port_count": 0,
           "nearest_port_dist_m": 57,
           "issue_type": "empty"
+        },
+        {
+          "stop_id": "1240_01",
+          "stop_name": "岸谷公園入口",
+          "lat": 35.4979725,
+          "lon": 139.6650136,
+          "delay_count": 39,
+          "avg_delay_min": 5.5,
+          "available_count": 0,
+          "empty_count": 0,
+          "no_port_count": 39,
+          "nearest_port_dist_m": 385,
+          "issue_type": "no_port"
         },
         {
           "stop_id": "0625_03",
@@ -2017,17 +2030,30 @@
           "issue_type": "no_port"
         },
         {
-          "stop_id": "1240_01",
-          "stop_name": "岸谷公園入口",
-          "lat": 35.4979725,
-          "lon": 139.6650136,
+          "stop_id": "2200_01",
+          "stop_name": "しらとり台",
+          "lat": 35.5343389,
+          "lon": 139.5173925,
           "delay_count": 38,
-          "avg_delay_min": 5.5,
+          "avg_delay_min": 4.3,
           "available_count": 0,
           "empty_count": 0,
           "no_port_count": 38,
-          "nearest_port_dist_m": 385,
+          "nearest_port_dist_m": 358,
           "issue_type": "no_port"
+        },
+        {
+          "stop_id": "5850_02",
+          "stop_name": "本牧２丁目",
+          "lat": 35.4304247,
+          "lon": 139.6608364,
+          "delay_count": 53,
+          "avg_delay_min": 5.2,
+          "available_count": 16,
+          "empty_count": 37,
+          "no_port_count": 0,
+          "nearest_port_dist_m": 271,
+          "issue_type": "empty"
         },
         {
           "stop_id": "0014_02",
@@ -2069,29 +2095,29 @@
           "issue_type": "no_port"
         },
         {
-          "stop_id": "2200_01",
-          "stop_name": "しらとり台",
-          "lat": 35.5343389,
-          "lon": 139.5173925,
+          "stop_id": "6802_01",
+          "stop_name": "元町",
+          "lat": 35.437987,
+          "lon": 139.6454695,
           "delay_count": 37,
-          "avg_delay_min": 4.3,
+          "avg_delay_min": 5.1,
           "available_count": 0,
           "empty_count": 0,
           "no_port_count": 37,
-          "nearest_port_dist_m": 358,
+          "nearest_port_dist_m": 322,
           "issue_type": "no_port"
         },
         {
-          "stop_id": "5850_02",
-          "stop_name": "本牧２丁目",
-          "lat": 35.4304247,
-          "lon": 139.6608364,
-          "delay_count": 52,
+          "stop_id": "5846_02",
+          "stop_name": "本郷町",
+          "lat": 35.4320756,
+          "lon": 139.6563639,
+          "delay_count": 48,
           "avg_delay_min": 5.3,
-          "available_count": 16,
+          "available_count": 12,
           "empty_count": 36,
           "no_port_count": 0,
-          "nearest_port_dist_m": 271,
+          "nearest_port_dist_m": 176,
           "issue_type": "empty"
         },
         {
@@ -2108,16 +2134,16 @@
           "issue_type": "no_port"
         },
         {
-          "stop_id": "6802_01",
-          "stop_name": "元町",
-          "lat": 35.437987,
-          "lon": 139.6454695,
+          "stop_id": "1409_01",
+          "stop_name": "楠町",
+          "lat": 35.4678503,
+          "lon": 139.6138314,
           "delay_count": 36,
-          "avg_delay_min": 5.1,
+          "avg_delay_min": 5.3,
           "available_count": 0,
           "empty_count": 0,
           "no_port_count": 36,
-          "nearest_port_dist_m": 322,
+          "nearest_port_dist_m": 315,
           "issue_type": "no_port"
         },
         {
@@ -2134,41 +2160,15 @@
           "issue_type": "empty"
         },
         {
-          "stop_id": "5846_02",
-          "stop_name": "本郷町",
-          "lat": 35.4320756,
-          "lon": 139.6563639,
-          "delay_count": 47,
-          "avg_delay_min": 5.3,
-          "available_count": 12,
-          "empty_count": 35,
-          "no_port_count": 0,
-          "nearest_port_dist_m": 176,
-          "issue_type": "empty"
-        },
-        {
-          "stop_id": "1409_01",
-          "stop_name": "楠町",
-          "lat": 35.4678503,
-          "lon": 139.6138314,
-          "delay_count": 35,
-          "avg_delay_min": 5.3,
-          "available_count": 0,
-          "empty_count": 0,
-          "no_port_count": 35,
-          "nearest_port_dist_m": 315,
-          "issue_type": "no_port"
-        },
-        {
           "stop_id": "4217_02",
           "stop_name": "二の谷",
           "lat": 35.4208478,
           "lon": 139.657257,
-          "delay_count": 34,
+          "delay_count": 35,
           "avg_delay_min": 5.2,
           "available_count": 0,
           "empty_count": 0,
-          "no_port_count": 34,
+          "no_port_count": 35,
           "nearest_port_dist_m": 304,
           "issue_type": "no_port"
         },
@@ -2177,11 +2177,11 @@
           "stop_name": "立町",
           "lat": 35.4809864,
           "lon": 139.6355903,
-          "delay_count": 34,
+          "delay_count": 35,
           "avg_delay_min": 4.8,
           "available_count": 0,
           "empty_count": 0,
-          "no_port_count": 34,
+          "no_port_count": 35,
           "nearest_port_dist_m": 322,
           "issue_type": "no_port"
         }
@@ -2306,12 +2306,12 @@
         },
         {
           "hour": 13,
-          "delay_count": 950,
-          "avg_delay_min": 5.7,
-          "available_count": 622,
-          "empty_count": 96,
-          "no_port_count": 232,
-          "available_rate": 65.5
+          "delay_count": 1464,
+          "avg_delay_min": 5.2,
+          "available_count": 960,
+          "empty_count": 132,
+          "no_port_count": 372,
+          "available_rate": 65.6
         },
         {
           "hour": 14,
@@ -2408,29 +2408,29 @@
         {
           "route_id": "101",
           "route_name": "101系統",
-          "delay_count": 1247,
+          "delay_count": 1272,
           "avg_delay_min": 5.7,
-          "available_rate": 79.1,
-          "empty_rate": 11.3,
-          "no_port_rate": 9.6
+          "available_rate": 78.7,
+          "empty_rate": 11.6,
+          "no_port_rate": 9.7
         },
         {
           "route_id": "041",
           "route_name": "041系統",
-          "delay_count": 1219,
+          "delay_count": 1225,
           "avg_delay_min": 4.9,
-          "available_rate": 73.9,
+          "available_rate": 74.0,
           "empty_rate": 2.9,
           "no_port_rate": 23.2
         },
         {
           "route_id": "036",
           "route_name": "036系統",
-          "delay_count": 1071,
+          "delay_count": 1106,
           "avg_delay_min": 6.1,
-          "available_rate": 66.0,
+          "available_rate": 66.1,
           "empty_rate": 11.0,
-          "no_port_rate": 23.0
+          "no_port_rate": 22.9
         },
         {
           "route_id": "106",
@@ -2444,11 +2444,11 @@
         {
           "route_id": "058",
           "route_name": "058系統",
-          "delay_count": 835,
-          "avg_delay_min": 5.0,
-          "available_rate": 85.3,
+          "delay_count": 855,
+          "avg_delay_min": 4.9,
+          "available_rate": 84.9,
           "empty_rate": 2.8,
-          "no_port_rate": 12.0
+          "no_port_rate": 12.3
         },
         {
           "route_id": "181",
@@ -2462,29 +2462,29 @@
         {
           "route_id": "105",
           "route_name": "105系統",
-          "delay_count": 723,
+          "delay_count": 733,
           "avg_delay_min": 5.5,
-          "available_rate": 72.6,
-          "empty_rate": 5.0,
-          "no_port_rate": 22.4
+          "available_rate": 72.3,
+          "empty_rate": 4.9,
+          "no_port_rate": 22.8
         },
         {
           "route_id": "039",
           "route_name": "039系統",
-          "delay_count": 672,
+          "delay_count": 692,
           "avg_delay_min": 6.2,
-          "available_rate": 69.3,
-          "empty_rate": 9.1,
-          "no_port_rate": 21.6
+          "available_rate": 69.4,
+          "empty_rate": 9.0,
+          "no_port_rate": 21.7
         },
         {
           "route_id": "008",
           "route_name": "008系統",
-          "delay_count": 622,
+          "delay_count": 640,
           "avg_delay_min": 4.9,
-          "available_rate": 74.1,
+          "available_rate": 73.6,
           "empty_rate": 0.8,
-          "no_port_rate": 25.1
+          "no_port_rate": 25.6
         },
         {
           "route_id": "017",
@@ -2498,29 +2498,29 @@
         {
           "route_id": "079",
           "route_name": "079系統",
-          "delay_count": 501,
+          "delay_count": 513,
           "avg_delay_min": 4.5,
-          "available_rate": 79.4,
+          "available_rate": 79.1,
           "empty_rate": 1.2,
-          "no_port_rate": 19.4
+          "no_port_rate": 19.7
         },
         {
           "route_id": "029",
           "route_name": "029系統",
-          "delay_count": 457,
+          "delay_count": 478,
           "avg_delay_min": 5.1,
-          "available_rate": 68.7,
-          "empty_rate": 8.1,
-          "no_port_rate": 23.2
+          "available_rate": 68.8,
+          "empty_rate": 8.2,
+          "no_port_rate": 23.0
         },
         {
           "route_id": "104",
           "route_name": "104系統",
-          "delay_count": 419,
+          "delay_count": 442,
           "avg_delay_min": 4.1,
           "available_rate": 73.3,
-          "empty_rate": 6.2,
-          "no_port_rate": 20.5
+          "empty_rate": 5.9,
+          "no_port_rate": 20.8
         },
         {
           "route_id": "111",
@@ -2543,20 +2543,20 @@
         {
           "route_id": "007",
           "route_name": "007系統",
-          "delay_count": 398,
+          "delay_count": 402,
           "avg_delay_min": 4.9,
-          "available_rate": 67.3,
-          "empty_rate": 8.8,
-          "no_port_rate": 23.9
+          "available_rate": 67.7,
+          "empty_rate": 8.7,
+          "no_port_rate": 23.6
         },
         {
           "route_id": "013",
           "route_name": "013系統",
-          "delay_count": 376,
+          "delay_count": 395,
           "avg_delay_min": 4.5,
-          "available_rate": 72.9,
-          "empty_rate": 6.9,
-          "no_port_rate": 20.2
+          "available_rate": 72.7,
+          "empty_rate": 6.6,
+          "no_port_rate": 20.8
         },
         {
           "route_id": "021",
@@ -2568,6 +2568,15 @@
           "no_port_rate": 22.6
         },
         {
+          "route_id": "103",
+          "route_name": "103系統",
+          "delay_count": 348,
+          "avg_delay_min": 4.0,
+          "available_rate": 75.3,
+          "empty_rate": 11.5,
+          "no_port_rate": 13.2
+        },
+        {
           "route_id": "038",
           "route_name": "038系統",
           "delay_count": 344,
@@ -2577,22 +2586,13 @@
           "no_port_rate": 18.6
         },
         {
-          "route_id": "103",
-          "route_name": "103系統",
-          "delay_count": 335,
-          "avg_delay_min": 4.0,
-          "available_rate": 74.9,
-          "empty_rate": 11.9,
-          "no_port_rate": 13.1
-        },
-        {
           "route_id": "025",
           "route_name": "025系統",
-          "delay_count": 327,
+          "delay_count": 332,
           "avg_delay_min": 4.8,
-          "available_rate": 67.3,
-          "empty_rate": 8.3,
-          "no_port_rate": 24.5
+          "available_rate": 67.2,
+          "empty_rate": 8.4,
+          "no_port_rate": 24.4
         },
         {
           "route_id": "065",
@@ -2606,20 +2606,29 @@
         {
           "route_id": "026",
           "route_name": "026系統",
-          "delay_count": 266,
+          "delay_count": 281,
           "avg_delay_min": 4.4,
-          "available_rate": 69.5,
+          "available_rate": 69.4,
           "empty_rate": 0.0,
-          "no_port_rate": 30.5
+          "no_port_rate": 30.6
         },
         {
           "route_id": "102",
           "route_name": "102系統",
-          "delay_count": 257,
+          "delay_count": 276,
           "avg_delay_min": 4.2,
-          "available_rate": 88.7,
-          "empty_rate": 5.1,
-          "no_port_rate": 6.2
+          "available_rate": 88.0,
+          "empty_rate": 5.4,
+          "no_port_rate": 6.5
+        },
+        {
+          "route_id": "059",
+          "route_name": "059系統",
+          "delay_count": 216,
+          "avg_delay_min": 4.9,
+          "available_rate": 50.0,
+          "empty_rate": 23.1,
+          "no_port_rate": 26.9
         },
         {
           "route_id": "050",
@@ -2631,6 +2640,24 @@
           "no_port_rate": 13.7
         },
         {
+          "route_id": "012",
+          "route_name": "012系統",
+          "delay_count": 203,
+          "avg_delay_min": 5.6,
+          "available_rate": 65.5,
+          "empty_rate": 0.0,
+          "no_port_rate": 34.5
+        },
+        {
+          "route_id": "023",
+          "route_name": "023系統",
+          "delay_count": 201,
+          "avg_delay_min": 4.0,
+          "available_rate": 70.1,
+          "empty_rate": 0.0,
+          "no_port_rate": 29.9
+        },
+        {
           "route_id": "009",
           "route_name": "009系統",
           "delay_count": 199,
@@ -2640,46 +2667,19 @@
           "no_port_rate": 18.1
         },
         {
-          "route_id": "012",
-          "route_name": "012系統",
-          "delay_count": 197,
-          "avg_delay_min": 5.7,
-          "available_rate": 65.0,
-          "empty_rate": 0.0,
-          "no_port_rate": 35.0
-        },
-        {
-          "route_id": "023",
-          "route_name": "023系統",
-          "delay_count": 196,
+          "route_id": "051",
+          "route_name": "051系統",
+          "delay_count": 190,
           "avg_delay_min": 4.0,
-          "available_rate": 70.4,
+          "available_rate": 77.9,
           "empty_rate": 0.0,
-          "no_port_rate": 29.6
-        },
-        {
-          "route_id": "059",
-          "route_name": "059系統",
-          "delay_count": 195,
-          "avg_delay_min": 5.0,
-          "available_rate": 51.3,
-          "empty_rate": 22.6,
-          "no_port_rate": 26.2
-        },
-        {
-          "route_id": "068",
-          "route_name": "068系統",
-          "delay_count": 187,
-          "avg_delay_min": 4.6,
-          "available_rate": 77.0,
-          "empty_rate": 10.7,
-          "no_port_rate": 12.3
+          "no_port_rate": 22.1
         }
       ]
     },
     "holiday": {
       "meta": {
-        "updated_at_jst": "2026-11-26 13:15:29",
+        "updated_at_jst": "2026-11-26 13:30:21",
         "date_range": "",
         "total_snapshots": 0,
         "total_valid_delays": 0,
