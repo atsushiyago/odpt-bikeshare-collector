@@ -9,6 +9,8 @@ import math
 import os
 from pathlib import Path
 
+import jpholiday
+
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
 
@@ -26,22 +28,16 @@ MATCH_WINDOW_SEC = 600  # 前後10分
 PORT_RADIUS_M = 300.0
 JST = timezone(timedelta(hours=9))
 SEGMENT_KEYS = ("all", "weekday", "holiday")
-HOLIDAY_DATES = frozenset(
-    {
-        "2026-12-29",
-        "2026-12-30",
-        "2026-12-31",
-        "2027-01-01",
-        "2027-01-02",
-        "2027-01-03",
-        "2027-01-11",
-    }
-)
 
 
-def classify_day_segment(dt: datetime, date_str: str) -> str:
-    """日付と曜日から 'holiday'（土日祝）または 'weekday'（平日）を返す。"""
-    if dt.weekday() in (5, 6) or date_str in HOLIDAY_DATES:
+def is_year_end_new_year(dt: datetime) -> bool:
+    """年末年始（12/29〜1/3）の休日ダイヤ期間かどうかを返す。"""
+    return (dt.month == 12 and dt.day >= 29) or (dt.month == 1 and dt.day <= 3)
+
+
+def classify_day_segment(dt: datetime, date_str: str = "") -> str:
+    """日付と曜日（土日・日本の祝日・年末年始）から 'holiday' または 'weekday' を返す。"""
+    if dt.weekday() in (5, 6) or jpholiday.is_holiday(dt.date()) or is_year_end_new_year(dt):
         return "holiday"
     return "weekday"
 

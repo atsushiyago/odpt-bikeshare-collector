@@ -23,7 +23,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests gtfs-realtime-bindings
+        run: pip install requests gtfs-realtime-bindings jpholiday
 
       - name: Run bikeshare collection script
         run: python collect.py
