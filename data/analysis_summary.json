@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at_jst": "2026-11-27 03:00:24",
+    "updated_at_jst": "2026-11-27 03:15:26",
     "date_range": "2026-11-25 〜 2026-11-27",
     "total_snapshots": 86,
     "total_valid_delays": 43203,
@@ -893,7 +893,7 @@
   "segments": {
     "all": {
       "meta": {
-        "updated_at_jst": "2026-11-27 03:00:24",
+        "updated_at_jst": "2026-11-27 03:15:26",
         "date_range": "2026-11-25 〜 2026-11-27",
         "total_snapshots": 86,
         "total_valid_delays": 43203,
@@ -1786,7 +1786,7 @@
     },
     "weekday": {
       "meta": {
-        "updated_at_jst": "2026-11-27 03:00:24",
+        "updated_at_jst": "2026-11-27 03:15:26",
         "date_range": "2026-11-25 〜 2026-11-27",
         "total_snapshots": 86,
         "total_valid_delays": 43203,
@@ -2679,7 +2679,7 @@
     },
     "holiday": {
       "meta": {
-        "updated_at_jst": "2026-11-27 03:00:24",
+        "updated_at_jst": "2026-11-27 03:15:26",
         "date_range": "",
         "total_snapshots": 0,
         "total_valid_delays": 0,
