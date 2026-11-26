@@ -1,11 +1,11 @@
 {
   "meta": {
-    "updated_at_jst": "2026-11-26 23:45:21",
-    "date_range": "2026-11-25 〜 2026-11-26",
+    "updated_at_jst": "2026-11-27 00:00:26",
+    "date_range": "2026-11-25 〜 2026-11-27",
     "total_snapshots": 86,
     "total_valid_delays": 43203,
-    "overall_available_rate": 67.7,
-    "overall_empty_rate": 5.7,
+    "overall_available_rate": 67.8,
+    "overall_empty_rate": 5.5,
     "overall_no_port_rate": 26.6
   },
   "problem_stops": [
@@ -513,62 +513,62 @@
       "hour": 12,
       "delay_count": 2383,
       "avg_delay_min": 4.7,
-      "available_count": 1567,
-      "empty_count": 195,
+      "available_count": 1571,
+      "empty_count": 191,
       "no_port_count": 621,
-      "available_rate": 65.8
+      "available_rate": 65.9
     },
     {
       "hour": 13,
       "delay_count": 1976,
       "avg_delay_min": 5.0,
-      "available_count": 1293,
-      "empty_count": 177,
+      "available_count": 1300,
+      "empty_count": 170,
       "no_port_count": 506,
-      "available_rate": 65.4
+      "available_rate": 65.8
     },
     {
       "hour": 14,
       "delay_count": 2506,
       "avg_delay_min": 4.5,
-      "available_count": 1722,
-      "empty_count": 183,
+      "available_count": 1730,
+      "empty_count": 175,
       "no_port_count": 601,
-      "available_rate": 68.7
+      "available_rate": 69.0
     },
     {
       "hour": 15,
       "delay_count": 2689,
       "avg_delay_min": 4.6,
-      "available_count": 1779,
-      "empty_count": 238,
+      "available_count": 1794,
+      "empty_count": 223,
       "no_port_count": 672,
-      "available_rate": 66.2
+      "available_rate": 66.7
     },
     {
       "hour": 16,
       "delay_count": 3741,
       "avg_delay_min": 5.1,
-      "available_count": 2576,
-      "empty_count": 248,
+      "available_count": 2590,
+      "empty_count": 234,
       "no_port_count": 917,
-      "available_rate": 68.9
+      "available_rate": 69.2
     },
     {
       "hour": 17,
       "delay_count": 5181,
       "avg_delay_min": 5.4,
-      "available_count": 3384,
-      "empty_count": 246,
+      "available_count": 3389,
+      "empty_count": 241,
       "no_port_count": 1551,
-      "available_rate": 65.3
+      "available_rate": 65.4
     },
     {
       "hour": 18,
       "delay_count": 4667,
       "avg_delay_min": 5.4,
-      "available_count": 3062,
-      "empty_count": 231,
+      "available_count": 3063,
+      "empty_count": 230,
       "no_port_count": 1374,
       "available_rate": 65.6
     },
@@ -585,8 +585,8 @@
       "hour": 20,
       "delay_count": 1485,
       "avg_delay_min": 4.3,
-      "available_count": 1097,
-      "empty_count": 35,
+      "available_count": 1098,
+      "empty_count": 34,
       "no_port_count": 353,
       "available_rate": 73.9
     },
@@ -594,19 +594,19 @@
       "hour": 21,
       "delay_count": 1754,
       "avg_delay_min": 4.3,
-      "available_count": 1297,
-      "empty_count": 62,
+      "available_count": 1299,
+      "empty_count": 60,
       "no_port_count": 395,
-      "available_rate": 73.9
+      "available_rate": 74.1
     },
     {
       "hour": 22,
       "delay_count": 658,
       "avg_delay_min": 8.1,
-      "available_count": 456,
-      "empty_count": 8,
+      "available_count": 457,
+      "empty_count": 7,
       "no_port_count": 194,
-      "available_rate": 69.3
+      "available_rate": 69.5
     },
     {
       "hour": 23,
@@ -759,8 +759,8 @@
       "route_name": "202系統",
       "delay_count": 763,
       "avg_delay_min": 8.0,
-      "available_rate": 83.9,
-      "empty_rate": 13.8,
+      "available_rate": 86.0,
+      "empty_rate": 11.7,
       "no_port_rate": 2.4
     },
     {
@@ -840,8 +840,8 @@
       "route_name": "050系統",
       "delay_count": 576,
       "avg_delay_min": 4.8,
-      "available_rate": 72.2,
-      "empty_rate": 16.1,
+      "available_rate": 76.2,
+      "empty_rate": 12.2,
       "no_port_rate": 11.6
     },
     {
@@ -885,20 +885,20 @@
       "route_name": "087系統",
       "delay_count": 331,
       "avg_delay_min": 4.8,
-      "available_rate": 67.4,
-      "empty_rate": 17.8,
+      "available_rate": 69.8,
+      "empty_rate": 15.4,
       "no_port_rate": 14.8
     }
   ],
   "segments": {
     "all": {
       "meta": {
-        "updated_at_jst": "2026-11-26 23:45:21",
-        "date_range": "2026-11-25 〜 2026-11-26",
+        "updated_at_jst": "2026-11-27 00:00:26",
+        "date_range": "2026-11-25 〜 2026-11-27",
         "total_snapshots": 86,
         "total_valid_delays": 43203,
-        "overall_available_rate": 67.7,
-        "overall_empty_rate": 5.7,
+        "overall_available_rate": 67.8,
+        "overall_empty_rate": 5.5,
         "overall_no_port_rate": 26.6
       },
       "problem_stops": [
@@ -1406,62 +1406,62 @@
           "hour": 12,
           "delay_count": 2383,
           "avg_delay_min": 4.7,
-          "available_count": 1567,
-          "empty_count": 195,
+          "available_count": 1571,
+          "empty_count": 191,
           "no_port_count": 621,
-          "available_rate": 65.8
+          "available_rate": 65.9
         },
         {
           "hour": 13,
           "delay_count": 1976,
           "avg_delay_min": 5.0,
-          "available_count": 1293,
-          "empty_count": 177,
+          "available_count": 1300,
+          "empty_count": 170,
           "no_port_count": 506,
-          "available_rate": 65.4
+          "available_rate": 65.8
         },
         {
           "hour": 14,
           "delay_count": 2506,
           "avg_delay_min": 4.5,
-          "available_count": 1722,
-          "empty_count": 183,
+          "available_count": 1730,
+          "empty_count": 175,
           "no_port_count": 601,
-          "available_rate": 68.7
+          "available_rate": 69.0
         },
         {
           "hour": 15,
           "delay_count": 2689,
           "avg_delay_min": 4.6,
-          "available_count": 1779,
-          "empty_count": 238,
+          "available_count": 1794,
+          "empty_count": 223,
           "no_port_count": 672,
-          "available_rate": 66.2
+          "available_rate": 66.7
         },
         {
           "hour": 16,
           "delay_count": 3741,
           "avg_delay_min": 5.1,
-          "available_count": 2576,
-          "empty_count": 248,
+          "available_count": 2590,
+          "empty_count": 234,
           "no_port_count": 917,
-          "available_rate": 68.9
+          "available_rate": 69.2
         },
         {
           "hour": 17,
           "delay_count": 5181,
           "avg_delay_min": 5.4,
-          "available_count": 3384,
-          "empty_count": 246,
+          "available_count": 3389,
+          "empty_count": 241,
           "no_port_count": 1551,
-          "available_rate": 65.3
+          "available_rate": 65.4
         },
         {
           "hour": 18,
           "delay_count": 4667,
           "avg_delay_min": 5.4,
-          "available_count": 3062,
-          "empty_count": 231,
+          "available_count": 3063,
+          "empty_count": 230,
           "no_port_count": 1374,
           "available_rate": 65.6
         },
@@ -1478,8 +1478,8 @@
           "hour": 20,
           "delay_count": 1485,
           "avg_delay_min": 4.3,
-          "available_count": 1097,
-          "empty_count": 35,
+          "available_count": 1098,
+          "empty_count": 34,
           "no_port_count": 353,
           "available_rate": 73.9
         },
@@ -1487,19 +1487,19 @@
           "hour": 21,
           "delay_count": 1754,
           "avg_delay_min": 4.3,
-          "available_count": 1297,
-          "empty_count": 62,
+          "available_count": 1299,
+          "empty_count": 60,
           "no_port_count": 395,
-          "available_rate": 73.9
+          "available_rate": 74.1
         },
         {
           "hour": 22,
           "delay_count": 658,
           "avg_delay_min": 8.1,
-          "available_count": 456,
-          "empty_count": 8,
+          "available_count": 457,
+          "empty_count": 7,
           "no_port_count": 194,
-          "available_rate": 69.3
+          "available_rate": 69.5
         },
         {
           "hour": 23,
@@ -1652,8 +1652,8 @@
           "route_name": "202系統",
           "delay_count": 763,
           "avg_delay_min": 8.0,
-          "available_rate": 83.9,
-          "empty_rate": 13.8,
+          "available_rate": 86.0,
+          "empty_rate": 11.7,
           "no_port_rate": 2.4
         },
         {
@@ -1733,8 +1733,8 @@
           "route_name": "050系統",
           "delay_count": 576,
           "avg_delay_min": 4.8,
-          "available_rate": 72.2,
-          "empty_rate": 16.1,
+          "available_rate": 76.2,
+          "empty_rate": 12.2,
           "no_port_rate": 11.6
         },
         {
@@ -1778,20 +1778,20 @@
           "route_name": "087系統",
           "delay_count": 331,
           "avg_delay_min": 4.8,
-          "available_rate": 67.4,
-          "empty_rate": 17.8,
+          "available_rate": 69.8,
+          "empty_rate": 15.4,
           "no_port_rate": 14.8
         }
       ]
     },
     "weekday": {
       "meta": {
-        "updated_at_jst": "2026-11-26 23:45:21",
-        "date_range": "2026-11-25 〜 2026-11-26",
+        "updated_at_jst": "2026-11-27 00:00:26",
+        "date_range": "2026-11-25 〜 2026-11-27",
         "total_snapshots": 86,
         "total_valid_delays": 43203,
-        "overall_available_rate": 67.7,
-        "overall_empty_rate": 5.7,
+        "overall_available_rate": 67.8,
+        "overall_empty_rate": 5.5,
         "overall_no_port_rate": 26.6
       },
       "problem_stops": [
@@ -2299,62 +2299,62 @@
           "hour": 12,
           "delay_count": 2383,
           "avg_delay_min": 4.7,
-          "available_count": 1567,
-          "empty_count": 195,
+          "available_count": 1571,
+          "empty_count": 191,
           "no_port_count": 621,
-          "available_rate": 65.8
+          "available_rate": 65.9
         },
         {
           "hour": 13,
           "delay_count": 1976,
           "avg_delay_min": 5.0,
-          "available_count": 1293,
-          "empty_count": 177,
+          "available_count": 1300,
+          "empty_count": 170,
           "no_port_count": 506,
-          "available_rate": 65.4
+          "available_rate": 65.8
         },
         {
           "hour": 14,
           "delay_count": 2506,
           "avg_delay_min": 4.5,
-          "available_count": 1722,
-          "empty_count": 183,
+          "available_count": 1730,
+          "empty_count": 175,
           "no_port_count": 601,
-          "available_rate": 68.7
+          "available_rate": 69.0
         },
         {
           "hour": 15,
           "delay_count": 2689,
           "avg_delay_min": 4.6,
-          "available_count": 1779,
-          "empty_count": 238,
+          "available_count": 1794,
+          "empty_count": 223,
           "no_port_count": 672,
-          "available_rate": 66.2
+          "available_rate": 66.7
         },
         {
           "hour": 16,
           "delay_count": 3741,
           "avg_delay_min": 5.1,
-          "available_count": 2576,
-          "empty_count": 248,
+          "available_count": 2590,
+          "empty_count": 234,
           "no_port_count": 917,
-          "available_rate": 68.9
+          "available_rate": 69.2
         },
         {
           "hour": 17,
           "delay_count": 5181,
           "avg_delay_min": 5.4,
-          "available_count": 3384,
-          "empty_count": 246,
+          "available_count": 3389,
+          "empty_count": 241,
           "no_port_count": 1551,
-          "available_rate": 65.3
+          "available_rate": 65.4
         },
         {
           "hour": 18,
           "delay_count": 4667,
           "avg_delay_min": 5.4,
-          "available_count": 3062,
-          "empty_count": 231,
+          "available_count": 3063,
+          "empty_count": 230,
           "no_port_count": 1374,
           "available_rate": 65.6
         },
@@ -2371,8 +2371,8 @@
           "hour": 20,
           "delay_count": 1485,
           "avg_delay_min": 4.3,
-          "available_count": 1097,
-          "empty_count": 35,
+          "available_count": 1098,
+          "empty_count": 34,
           "no_port_count": 353,
           "available_rate": 73.9
         },
@@ -2380,19 +2380,19 @@
           "hour": 21,
           "delay_count": 1754,
           "avg_delay_min": 4.3,
-          "available_count": 1297,
-          "empty_count": 62,
+          "available_count": 1299,
+          "empty_count": 60,
           "no_port_count": 395,
-          "available_rate": 73.9
+          "available_rate": 74.1
         },
         {
           "hour": 22,
           "delay_count": 658,
           "avg_delay_min": 8.1,
-          "available_count": 456,
-          "empty_count": 8,
+          "available_count": 457,
+          "empty_count": 7,
           "no_port_count": 194,
-          "available_rate": 69.3
+          "available_rate": 69.5
         },
         {
           "hour": 23,
@@ -2545,8 +2545,8 @@
           "route_name": "202系統",
           "delay_count": 763,
           "avg_delay_min": 8.0,
-          "available_rate": 83.9,
-          "empty_rate": 13.8,
+          "available_rate": 86.0,
+          "empty_rate": 11.7,
           "no_port_rate": 2.4
         },
         {
@@ -2626,8 +2626,8 @@
           "route_name": "050系統",
           "delay_count": 576,
           "avg_delay_min": 4.8,
-          "available_rate": 72.2,
-          "empty_rate": 16.1,
+          "available_rate": 76.2,
+          "empty_rate": 12.2,
           "no_port_rate": 11.6
         },
         {
@@ -2671,15 +2671,15 @@
           "route_name": "087系統",
           "delay_count": 331,
           "avg_delay_min": 4.8,
-          "available_rate": 67.4,
-          "empty_rate": 17.8,
+          "available_rate": 69.8,
+          "empty_rate": 15.4,
           "no_port_rate": 14.8
         }
       ]
     },
     "holiday": {
       "meta": {
-        "updated_at_jst": "2026-11-26 23:45:21",
+        "updated_at_jst": "2026-11-27 00:00:26",
         "date_range": "",
         "total_snapshots": 0,
         "total_valid_delays": 0,
