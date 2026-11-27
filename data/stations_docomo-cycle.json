@@ -4,7 +4,7 @@
     "name": "K1-49.ローソン仲池上一丁目店",
     "lat": 35.586585,
     "lon": 139.698552,
-    "capacity": 8
+    "capacity": 10
   },
   {
     "station_id": "10334",
@@ -46,7 +46,7 @@
     "name": "K1-47.NTT雪ヶ谷ビル",
     "lat": 35.598601,
     "lon": 139.684747,
-    "capacity": 10
+    "capacity": 11
   },
   {
     "station_id": "10605",
@@ -60,7 +60,7 @@
     "name": "Z01.NTTドコモ川崎ビル",
     "lat": 35.528801,
     "lon": 139.694661,
-    "capacity": 0
+    "capacity": 1
   },
   {
     "station_id": "10662",
@@ -74,7 +74,7 @@
     "name": "K1-65.下丸子3丁目",
     "lat": 35.571711,
     "lon": 139.685337,
-    "capacity": 12
+    "capacity": 13
   },
   {
     "station_id": "1074",
@@ -130,7 +130,7 @@
     "name": "K1-88.大田久が原西郵便局",
     "lat": 35.582756,
     "lon": 139.6925,
-    "capacity": 0
+    "capacity": 1
   },
   {
     "station_id": "11001",
@@ -144,7 +144,7 @@
     "name": "137.tvkハウジング プラザ横浜",
     "lat": 35.458067,
     "lon": 139.612279,
-    "capacity": 12
+    "capacity": 11
   },
   {
     "station_id": "1106",
@@ -152,6 +152,13 @@
     "lat": 35.495105,
     "lon": 139.52766,
     "capacity": 2
+  },
+  {
+    "station_id": "1160",
+    "name": "【I-008】相鉄ローゼン 山手台店",
+    "lat": 35.417216,
+    "lon": 139.523046,
+    "capacity": 6
   },
   {
     "station_id": "1161",
@@ -179,7 +186,7 @@
     "name": "138.新山下シーサイド",
     "lat": 35.44154,
     "lon": 139.661399,
-    "capacity": 5
+    "capacity": 6
   },
   {
     "station_id": "1201",
@@ -193,7 +200,7 @@
     "name": "【S-002】薬クリエイト瀬谷南阿久和店",
     "lat": 35.446166,
     "lon": 139.500633,
-    "capacity": 5
+    "capacity": 4
   },
   {
     "station_id": "1211",
@@ -263,7 +270,7 @@
     "name": "140.西横浜駅南口駐輪場",
     "lat": 35.453342,
     "lon": 139.609255,
-    "capacity": 13
+    "capacity": 12
   },
   {
     "station_id": "1361",
@@ -284,7 +291,7 @@
     "name": "110.横浜市役所",
     "lat": 35.451083,
     "lon": 139.634167,
-    "capacity": 11
+    "capacity": 10
   },
   {
     "station_id": "1442",
@@ -298,7 +305,7 @@
     "name": "143.平沼橋駐輪場",
     "lat": 35.461257,
     "lon": 139.619404,
-    "capacity": 11
+    "capacity": 12
   },
   {
     "station_id": "1444",
@@ -417,7 +424,7 @@
     "name": "【A-011】市営鶴ヶ峰南住宅",
     "lat": 35.472736,
     "lon": 139.548304,
-    "capacity": 8
+    "capacity": 7
   },
   {
     "station_id": "1636",
@@ -515,7 +522,7 @@
     "name": "151.反町公園",
     "lat": 35.476389,
     "lon": 139.629294,
-    "capacity": 12
+    "capacity": 13
   },
   {
     "station_id": "1956",
@@ -578,7 +585,7 @@
     "name": "160.根岸森林公園",
     "lat": 35.420603,
     "lon": 139.638226,
-    "capacity": 6
+    "capacity": 7
   },
   {
     "station_id": "1965",
@@ -620,7 +627,7 @@
     "name": "001.関内駅",
     "lat": 35.444105,
     "lon": 139.636138,
-    "capacity": 32
+    "capacity": 35
   },
   {
     "station_id": "2001",
@@ -648,14 +655,14 @@
     "name": "005.横浜ベイクォーター",
     "lat": 35.466289,
     "lon": 139.627331,
-    "capacity": 26
+    "capacity": 27
   },
   {
     "station_id": "2005",
     "name": "006.元町・中華街駅駐輪場",
     "lat": 35.440793,
     "lon": 139.647609,
-    "capacity": 15
+    "capacity": 14
   },
   {
     "station_id": "2007",
@@ -669,7 +676,7 @@
     "name": "010.横浜赤レンガ倉庫",
     "lat": 35.453626,
     "lon": 139.642432,
-    "capacity": 22
+    "capacity": 25
   },
   {
     "station_id": "201",
@@ -704,7 +711,7 @@
     "name": "019.りそな銀行",
     "lat": 35.44666,
     "lon": 139.635458,
-    "capacity": 7
+    "capacity": 8
   },
   {
     "station_id": "2017",
@@ -746,7 +753,7 @@
     "name": "028.横浜ワールドポーターズ",
     "lat": 35.453891,
     "lon": 139.6383,
-    "capacity": 9
+    "capacity": 11
   },
   {
     "station_id": "2024",
@@ -760,56 +767,56 @@
     "name": "030.クイーンズパーク",
     "lat": 35.456143,
     "lon": 139.634437,
-    "capacity": 14
+    "capacity": 19
   },
   {
     "station_id": "2026",
     "name": "031.三菱重工ポートサイドビル",
     "lat": 35.467941,
     "lon": 139.630746,
-    "capacity": 36
+    "capacity": 35
   },
   {
     "station_id": "2027",
     "name": "032.ランドマークプラザ",
     "lat": 35.455794,
     "lon": 139.631306,
-    "capacity": 24
+    "capacity": 26
   },
   {
     "station_id": "2028",
     "name": "034.横浜ロイヤルパークホテル",
     "lat": 35.455322,
     "lon": 139.630287,
-    "capacity": 36
+    "capacity": 37
   },
   {
     "station_id": "2029",
     "name": "035.KDX横浜みなとみらいタワー",
     "lat": 35.455912,
     "lon": 139.629498,
-    "capacity": 29
+    "capacity": 30
   },
   {
     "station_id": "2030",
     "name": "036.紅葉坂下",
     "lat": 35.452491,
     "lon": 139.629408,
-    "capacity": 36
+    "capacity": 39
   },
   {
     "station_id": "2031",
     "name": "037.MARKISみなとみらい",
     "lat": 35.457627,
     "lon": 139.632316,
-    "capacity": 24
+    "capacity": 26
   },
   {
     "station_id": "2033",
     "name": "039.横浜アイマークプレイス",
     "lat": 35.459956,
     "lon": 139.628988,
-    "capacity": 36
+    "capacity": 37
   },
   {
     "station_id": "2034",
@@ -830,14 +837,14 @@
     "name": "043.ヨコハマポートサイドビル",
     "lat": 35.469028,
     "lon": 139.630209,
-    "capacity": 32
+    "capacity": 31
   },
   {
     "station_id": "2037",
     "name": "044.高島中央公園",
     "lat": 35.462117,
     "lon": 139.629987,
-    "capacity": 18
+    "capacity": 19
   },
   {
     "station_id": "2038",
@@ -879,7 +886,7 @@
     "name": "052.伊勢佐木長者町駅駐輪場",
     "lat": 35.440582,
     "lon": 139.632243,
-    "capacity": 9
+    "capacity": 10
   },
   {
     "station_id": "2046",
@@ -893,28 +900,28 @@
     "name": "056.開港広場公園",
     "lat": 35.447165,
     "lon": 139.644265,
-    "capacity": 29
+    "capacity": 30
   },
   {
     "station_id": "2048",
     "name": "054.オーケーみなとみらい",
     "lat": 35.463662,
     "lon": 139.631396,
-    "capacity": 11
+    "capacity": 10
   },
   {
     "station_id": "2049",
     "name": "064.吉田興産P9",
     "lat": 35.444358,
     "lon": 139.627854,
-    "capacity": 2
+    "capacity": 3
   },
   {
     "station_id": "2050",
     "name": "060.南区総合庁舎",
     "lat": 35.434716,
     "lon": 139.627389,
-    "capacity": 16
+    "capacity": 15
   },
   {
     "station_id": "2051",
@@ -928,7 +935,7 @@
     "name": "061.三菱重工ポートサイドビル−２",
     "lat": 35.468179,
     "lon": 139.631114,
-    "capacity": 20
+    "capacity": 21
   },
   {
     "station_id": "2053",
@@ -942,21 +949,21 @@
     "name": "066.みなとみらいグランドセントラルタワー",
     "lat": 35.458845,
     "lon": 139.628577,
-    "capacity": 23
+    "capacity": 22
   },
   {
     "station_id": "2055",
     "name": "067.黄金町エリアマネジメントセンター",
     "lat": 35.441737,
     "lon": 139.625554,
-    "capacity": 1
+    "capacity": 0
   },
   {
     "station_id": "2056",
     "name": "068.OCEAN GATE MINATO MIRAI",
     "lat": 35.45843,
     "lon": 139.63468,
-    "capacity": 19
+    "capacity": 20
   },
   {
     "station_id": "2057",
@@ -977,21 +984,21 @@
     "name": "071.D-Parking 横浜中華街第1",
     "lat": 35.441812,
     "lon": 139.643342,
-    "capacity": 5
+    "capacity": 6
   },
   {
     "station_id": "2061",
     "name": "073.横浜山下町スペースバリュー",
     "lat": 35.444997,
     "lon": 139.646478,
-    "capacity": 10
+    "capacity": 11
   },
   {
     "station_id": "2062",
     "name": "074.横浜市中央卸売市場",
     "lat": 35.466735,
     "lon": 139.636324,
-    "capacity": 19
+    "capacity": 20
   },
   {
     "station_id": "2063",
@@ -1005,7 +1012,7 @@
     "name": "075.横浜スカイビル前",
     "lat": 35.464864,
     "lon": 139.624168,
-    "capacity": 12
+    "capacity": 11
   },
   {
     "station_id": "2065",
@@ -1026,7 +1033,7 @@
     "name": "116.横浜駅西口第２駐車場",
     "lat": 35.468406,
     "lon": 139.619251,
-    "capacity": 5
+    "capacity": 6
   },
   {
     "station_id": "2068",
@@ -1040,7 +1047,7 @@
     "name": "081.西区役所",
     "lat": 35.453819,
     "lon": 139.616845,
-    "capacity": 34
+    "capacity": 35
   },
   {
     "station_id": "2071",
@@ -1054,14 +1061,14 @@
     "name": "086.HOMMOKU BASE",
     "lat": 35.431584,
     "lon": 139.658211,
-    "capacity": 1
+    "capacity": 0
   },
   {
     "station_id": "2073",
     "name": "084.美濃屋あられ製造本舗",
     "lat": 35.433045,
     "lon": 139.663724,
-    "capacity": 5
+    "capacity": 4
   },
   {
     "station_id": "2074",
@@ -1089,21 +1096,21 @@
     "name": "089.イオン本牧店前",
     "lat": 35.425196,
     "lon": 139.666541,
-    "capacity": 17
+    "capacity": 16
   },
   {
     "station_id": "2078",
     "name": "090.西公会堂・西地区センター",
     "lat": 35.462795,
     "lon": 139.615488,
-    "capacity": 4
+    "capacity": 5
   },
   {
     "station_id": "2080",
     "name": "033.MMパークビル",
     "lat": 35.458805,
     "lon": 139.632938,
-    "capacity": 14
+    "capacity": 16
   },
   {
     "station_id": "2081",
@@ -1124,14 +1131,14 @@
     "name": "107.本牧フロント",
     "lat": 35.430919,
     "lon": 139.664483,
-    "capacity": 29
+    "capacity": 26
   },
   {
     "station_id": "2084",
     "name": "041.神奈川県庁西庁舎",
     "lat": 35.448529,
     "lon": 139.640649,
-    "capacity": 27
+    "capacity": 25
   },
   {
     "station_id": "2085",
@@ -1145,7 +1152,7 @@
     "name": "098.プラウド横浜桜木町",
     "lat": 35.4555,
     "lon": 139.625999,
-    "capacity": 10
+    "capacity": 9
   },
   {
     "station_id": "2088",
@@ -1166,14 +1173,14 @@
     "name": "104.カップヌードルミュージアムパーク",
     "lat": 35.455152,
     "lon": 139.640658,
-    "capacity": 147
+    "capacity": 142
   },
   {
     "station_id": "2093",
     "name": "105.みなとみらい21 クリーンセンター",
     "lat": 35.453156,
     "lon": 139.630073,
-    "capacity": 2
+    "capacity": 3
   },
   {
     "station_id": "2094",
@@ -1194,7 +1201,7 @@
     "name": "112.横浜スカイビル前-2",
     "lat": 35.464396,
     "lon": 139.62415,
-    "capacity": 8
+    "capacity": 10
   },
   {
     "station_id": "2099",
@@ -1215,14 +1222,14 @@
     "name": "119.セブン-イレブン京急ST黄金町店",
     "lat": 35.440107,
     "lon": 139.623442,
-    "capacity": 12
+    "capacity": 11
   },
   {
     "station_id": "2103",
     "name": "120.アソビル",
     "lat": 35.463607,
     "lon": 139.622196,
-    "capacity": 10
+    "capacity": 1
   },
   {
     "station_id": "2114",
@@ -1243,7 +1250,7 @@
     "name": "【A-014】相模鉄道 鶴ヶ峰駅南口",
     "lat": 35.474761,
     "lon": 139.549063,
-    "capacity": 9
+    "capacity": 8
   },
   {
     "station_id": "2230",
@@ -1271,7 +1278,7 @@
     "name": "【S-012】瀬谷本郷公園",
     "lat": 35.473642,
     "lon": 139.473247,
-    "capacity": 5
+    "capacity": 6
   },
   {
     "station_id": "2234",
@@ -1327,7 +1334,7 @@
     "name": "167.プレシス横濱関内パークアベニュー",
     "lat": 35.443287,
     "lon": 139.635167,
-    "capacity": 4
+    "capacity": 3
   },
   {
     "station_id": "2528",
@@ -1523,7 +1530,7 @@
     "name": "124.クリオ レジダンス横濱 ベイサイド",
     "lat": 35.471425,
     "lon": 139.638634,
-    "capacity": 0
+    "capacity": 6
   },
   {
     "station_id": "3077",
@@ -1607,7 +1614,7 @@
     "name": "125.タイムズステーション横浜山下町B",
     "lat": 35.44491,
     "lon": 139.647974,
-    "capacity": 7
+    "capacity": 5
   },
   {
     "station_id": "355",
@@ -1796,7 +1803,7 @@
     "name": "【A-037】左近山小学校付近（階段上）",
     "lat": 35.462724,
     "lon": 139.550579,
-    "capacity": 2
+    "capacity": 3
   },
   {
     "station_id": "3730",
@@ -1873,7 +1880,7 @@
     "name": "【I-018】和泉町4843地先",
     "lat": 35.421116,
     "lon": 139.485177,
-    "capacity": 1
+    "capacity": 2
   },
   {
     "station_id": "3741",
@@ -2055,7 +2062,7 @@
     "name": "128.神奈川住空間",
     "lat": 35.44626,
     "lon": 139.64035,
-    "capacity": 2
+    "capacity": 1
   },
   {
     "station_id": "4262",
@@ -2132,7 +2139,7 @@
     "name": "KG004.ユーコープ神大寺前",
     "lat": 35.48679,
     "lon": 139.6149,
-    "capacity": 7
+    "capacity": 8
   },
   {
     "station_id": "4278",
@@ -2293,7 +2300,7 @@
     "name": "【IS014】磯子駅第二自転車駐車場",
     "lat": 35.40205,
     "lon": 139.6193,
-    "capacity": 7
+    "capacity": 6
   },
   {
     "station_id": "4301",
@@ -2321,7 +2328,7 @@
     "name": "【TR007】鶴見駅東口第5自転車駐車場",
     "lat": 35.506197,
     "lon": 139.679259,
-    "capacity": 2
+    "capacity": 3
   },
   {
     "station_id": "4306",
@@ -2447,7 +2454,7 @@
     "name": "9007.横浜銀行横浜駅前支店",
     "lat": 35.467334,
     "lon": 139.621688,
-    "capacity": 5
+    "capacity": 4
   },
   {
     "station_id": "4517",
@@ -2531,7 +2538,7 @@
     "name": "【IS020】ポートヒルズ杉田",
     "lat": 35.37864,
     "lon": 139.6091,
-    "capacity": 4
+    "capacity": 5
   },
   {
     "station_id": "4560",
@@ -2671,7 +2678,7 @@
     "name": "H-027.星天qlay Bゾーン",
     "lat": 35.457903,
     "lon": 139.595527,
-    "capacity": 2
+    "capacity": 3
   },
   {
     "station_id": "4745",
@@ -2692,7 +2699,7 @@
     "name": "130.横濱ゲートタワー",
     "lat": 35.462579,
     "lon": 139.624539,
-    "capacity": 6
+    "capacity": 5
   },
   {
     "station_id": "4808",
@@ -2713,7 +2720,7 @@
     "name": "【TZ012】都筑区役所",
     "lat": 35.54523,
     "lon": 139.57078,
-    "capacity": 1
+    "capacity": 0
   },
   {
     "station_id": "4820",
@@ -2797,14 +2804,14 @@
     "name": "【KH006】新横浜一丁目19-15",
     "lat": 35.50604,
     "lon": 139.613335,
-    "capacity": 6
+    "capacity": 4
   },
   {
     "station_id": "4833",
     "name": "【KH007】新横浜三丁目4-4地先",
     "lat": 35.510147,
     "lon": 139.619285,
-    "capacity": 3
+    "capacity": 4
   },
   {
     "station_id": "4834",
@@ -2825,7 +2832,7 @@
     "name": "【KH009】日吉地区センター　施設外シェアサイクルスペース",
     "lat": 35.555459,
     "lon": 139.642683,
-    "capacity": 15
+    "capacity": 14
   },
   {
     "station_id": "4838",
@@ -2937,7 +2944,7 @@
     "name": "【AO006】奈良1号遊水地",
     "lat": 35.553971,
     "lon": 139.487113,
-    "capacity": 5
+    "capacity": 4
   },
   {
     "station_id": "4854",
@@ -3035,7 +3042,7 @@
     "name": "【KH019】新横浜駅第5自転車駐車場",
     "lat": 35.506847,
     "lon": 139.616155,
-    "capacity": 0
+    "capacity": 1
   },
   {
     "station_id": "4869",
@@ -3112,7 +3119,7 @@
     "name": "【A-047】大貫谷公園",
     "lat": 35.50617,
     "lon": 139.492412,
-    "capacity": 0
+    "capacity": 1
   },
   {
     "station_id": "4892",
@@ -3126,7 +3133,7 @@
     "name": "【IS026】たきがしら会館",
     "lat": 35.420831,
     "lon": 139.623693,
-    "capacity": 1
+    "capacity": 2
   },
   {
     "station_id": "4934",
@@ -3161,14 +3168,14 @@
     "name": "【A9005】S.ロークス",
     "lat": 35.471867,
     "lon": 139.538985,
-    "capacity": 1
+    "capacity": 2
   },
   {
     "station_id": "5093",
     "name": "【AO019】すすき野とうきゅう店",
     "lat": 35.577169,
     "lon": 139.526732,
-    "capacity": 1
+    "capacity": 0
   },
   {
     "station_id": "5094",
@@ -3259,7 +3266,7 @@
     "name": "【AO034】MEGAドン・キホーテ青葉台店",
     "lat": 35.539518,
     "lon": 139.514248,
-    "capacity": 15
+    "capacity": 14
   },
   {
     "station_id": "5109",
@@ -3337,6 +3344,13 @@
     "lat": 35.481629,
     "lon": 139.617152,
     "capacity": 4
+  },
+  {
+    "station_id": "5120",
+    "name": "KG025.ザ・パークハビオ 横浜白楽",
+    "lat": 35.487198,
+    "lon": 139.62555,
+    "capacity": 7
   },
   {
     "station_id": "5121",
@@ -3588,7 +3602,7 @@
     "name": "【TR019】SR Academia横浜",
     "lat": 35.501872,
     "lon": 139.66194,
-    "capacity": 2
+    "capacity": 3
   },
   {
     "station_id": "5158",
@@ -3728,7 +3742,7 @@
     "name": "【M-019】御前田交差点",
     "lat": 35.527715,
     "lon": 139.497436,
-    "capacity": 9
+    "capacity": 8
   },
   {
     "station_id": "5192",
@@ -3854,7 +3868,7 @@
     "name": "【KN008】港南台駅自転車駐車場（屋上）",
     "lat": 35.375542,
     "lon": 139.576619,
-    "capacity": 10
+    "capacity": 9
   },
   {
     "station_id": "5259",
@@ -3882,14 +3896,14 @@
     "name": "【KZ002】金沢八景駅西側",
     "lat": 35.331718,
     "lon": 139.619933,
-    "capacity": 4
+    "capacity": 5
   },
   {
     "station_id": "5263",
     "name": "【KZ003】六浦駅南口自転車駐車場",
     "lat": 35.322124,
     "lon": 139.610521,
-    "capacity": 1
+    "capacity": 2
   },
   {
     "station_id": "5264",
@@ -3903,7 +3917,7 @@
     "name": "【KZ005】幸浦駅西口",
     "lat": 35.358793,
     "lon": 139.642776,
-    "capacity": 3
+    "capacity": 2
   },
   {
     "station_id": "5266",
@@ -4295,7 +4309,7 @@
     "name": "【TZ024】仲町台駅高架下",
     "lat": 35.534778,
     "lon": 139.59229,
-    "capacity": 4
+    "capacity": 5
   },
   {
     "station_id": "5483",
@@ -4337,7 +4351,7 @@
     "name": "【TR020】尻手駅自転車駐車場",
     "lat": 35.529574,
     "lon": 139.6846,
-    "capacity": 7
+    "capacity": 8
   },
   {
     "station_id": "5490",
@@ -4414,7 +4428,7 @@
     "name": "202.山元町5丁目交差点付近",
     "lat": 35.424416,
     "lon": 139.641067,
-    "capacity": 5
+    "capacity": 6
   },
   {
     "station_id": "5516",
@@ -4449,7 +4463,7 @@
     "name": "203.BASEGATE 横浜関内",
     "lat": 35.444384,
     "lon": 139.637486,
-    "capacity": 1
+    "capacity": 0
   },
   {
     "station_id": "5553",
@@ -4610,7 +4624,7 @@
     "name": "【T9007】新ガーデン戸塚店",
     "lat": 35.420236,
     "lon": 139.535726,
-    "capacity": 5
+    "capacity": 6
   },
   {
     "station_id": "5743",
@@ -4680,7 +4694,7 @@
     "name": "【A9006】上白根第1共同住宅",
     "lat": 35.488359,
     "lon": 139.540451,
-    "capacity": 0
+    "capacity": 1
   },
   {
     "station_id": "5790",
@@ -4750,7 +4764,7 @@
     "name": "【AO039】美しが丘西地区センター",
     "lat": 35.584964,
     "lon": 139.535215,
-    "capacity": 1
+    "capacity": 2
   },
   {
     "station_id": "5883",
@@ -4848,14 +4862,14 @@
     "name": "K1-261.セリゼ雪が谷",
     "lat": 35.592684,
     "lon": 139.679756,
-    "capacity": 9
+    "capacity": 10
   },
   {
     "station_id": "623",
     "name": "131.横浜みなと第一生命ビル",
     "lat": 35.468676,
     "lon": 139.625838,
-    "capacity": 10
+    "capacity": 12
   },
   {
     "station_id": "644",
@@ -4890,7 +4904,7 @@
     "name": "133.プライムコーストみなとみらい",
     "lat": 35.462961,
     "lon": 139.632213,
-    "capacity": 3
+    "capacity": 2
   },
   {
     "station_id": "7288",
@@ -5002,7 +5016,7 @@
     "name": "209.吉浜町公園前",
     "lat": 35.438814,
     "lon": 139.641376,
-    "capacity": 7
+    "capacity": 8
   },
   {
     "station_id": "7435",
@@ -5079,7 +5093,7 @@
     "name": "【I-035】立場駅ロータリー付近",
     "lat": 35.413895,
     "lon": 139.500702,
-    "capacity": 7
+    "capacity": 9
   },
   {
     "station_id": "7446",
@@ -5254,14 +5268,14 @@
     "name": "【T-002】東戸塚駅西口駐輪場",
     "lat": 35.430289,
     "lon": 139.555123,
-    "capacity": 3
+    "capacity": 4
   },
   {
     "station_id": "799",
     "name": "【T-003】東戸塚駅西口第二駐輪場",
     "lat": 35.432844,
     "lon": 139.556342,
-    "capacity": 1
+    "capacity": 2
   },
   {
     "station_id": "801",
@@ -5394,7 +5408,7 @@
     "name": "【T-010】戸塚駅東口第八駐輪場",
     "lat": 35.401803,
     "lon": 139.535686,
-    "capacity": 5
+    "capacity": 4
   },
   {
     "station_id": "895",
@@ -5415,7 +5429,7 @@
     "name": "KG-002.薬クリエイト横浜六角橋店",
     "lat": 35.482201,
     "lon": 139.61817,
-    "capacity": 3
+    "capacity": 4
   },
   {
     "station_id": "934",
@@ -5457,7 +5471,7 @@
     "name": "【I-006】上飯田地区センター",
     "lat": 35.433927,
     "lon": 139.48291,
-    "capacity": 5
+    "capacity": 4
   },
   {
     "station_id": "994",
