@@ -11305,6 +11305,20 @@
     "capacity": null
   },
   {
+    "station_id": "28343",
+    "name": "リバー綱島",
+    "lat": 35.5295313,
+    "lon": 139.6387279,
+    "capacity": null
+  },
+  {
+    "station_id": "28344",
+    "name": "加瀬ビル230",
+    "lat": 35.5370295,
+    "lon": 139.6366824,
+    "capacity": null
+  },
+  {
     "station_id": "28370",
     "name": "ライフ高津新作店",
     "lat": 35.5867506,
