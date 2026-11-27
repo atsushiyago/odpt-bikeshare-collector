@@ -130,7 +130,7 @@
     "name": "K1-88.大田久が原西郵便局",
     "lat": 35.582756,
     "lon": 139.6925,
-    "capacity": 9
+    "capacity": 8
   },
   {
     "station_id": "11001",
@@ -389,7 +389,7 @@
     "name": "H-009.市営霞台グリーンハイツ",
     "lat": 35.448608,
     "lon": 139.593561,
-    "capacity": 2
+    "capacity": 3
   },
   {
     "station_id": "1583",
@@ -1061,7 +1061,7 @@
     "name": "086.HOMMOKU BASE",
     "lat": 35.431584,
     "lon": 139.658211,
-    "capacity": 22
+    "capacity": 21
   },
   {
     "station_id": "2073",
@@ -1208,7 +1208,7 @@
     "name": "114.西平沼橋",
     "lat": 35.457253,
     "lon": 139.617457,
-    "capacity": 25
+    "capacity": 24
   },
   {
     "station_id": "2100",
@@ -1929,7 +1929,7 @@
     "name": "K1-117.安詳寺",
     "lat": 35.581798,
     "lon": 139.695222,
-    "capacity": 10
+    "capacity": 11
   },
   {
     "station_id": "376",
@@ -2321,7 +2321,7 @@
     "name": "【TR006】鶴見市場駅東口第2自転車駐車場",
     "lat": 35.51698,
     "lon": 139.6862,
-    "capacity": 1
+    "capacity": 0
   },
   {
     "station_id": "4304",
@@ -2391,7 +2391,7 @@
     "name": "9003.藤棚町駐車場",
     "lat": 35.450395,
     "lon": 139.612836,
-    "capacity": 1
+    "capacity": 0
   },
   {
     "station_id": "4507",
@@ -2426,7 +2426,7 @@
     "name": "H9001.横浜銀行和田町支店",
     "lat": 35.465332,
     "lon": 139.588794,
-    "capacity": 3
+    "capacity": 4
   },
   {
     "station_id": "4513",
@@ -2615,7 +2615,7 @@
     "name": "【IS024】SRAcademia横浜磯子",
     "lat": 35.38601,
     "lon": 139.6065,
-    "capacity": 2
+    "capacity": 3
   },
   {
     "station_id": "4573",
@@ -3000,7 +3000,7 @@
     "name": "【TZ003】センター北駅自転車駐車場",
     "lat": 35.554766,
     "lon": 139.577068,
-    "capacity": 12
+    "capacity": 11
   },
   {
     "station_id": "4862",
@@ -3224,7 +3224,7 @@
     "name": "【AO026】東急百貨店たまプラーザ店",
     "lat": 35.579087,
     "lon": 139.558129,
-    "capacity": 4
+    "capacity": 5
   },
   {
     "station_id": "5101",
@@ -4232,7 +4232,7 @@
     "name": "H-030.横浜国立大学南地区駐輪場",
     "lat": 35.470652,
     "lon": 139.596164,
-    "capacity": 6
+    "capacity": 5
   },
   {
     "station_id": "5357",
