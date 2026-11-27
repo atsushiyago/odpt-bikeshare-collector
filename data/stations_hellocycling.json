@@ -11347,6 +11347,41 @@
     "capacity": null
   },
   {
+    "station_id": "28381",
+    "name": "シャーメゾンアカシA・B",
+    "lat": 35.3818851,
+    "lon": 139.530768,
+    "capacity": null
+  },
+  {
+    "station_id": "28382",
+    "name": "平和町公園",
+    "lat": 35.326664,
+    "lon": 139.4269478,
+    "capacity": null
+  },
+  {
+    "station_id": "28384",
+    "name": "堀割川いそご桟橋付近",
+    "lat": 35.4126303,
+    "lon": 139.6280544,
+    "capacity": null
+  },
+  {
+    "station_id": "28391",
+    "name": "フロンティアコンフォート横濱反町",
+    "lat": 35.4753028,
+    "lon": 139.6240553,
+    "capacity": null
+  },
+  {
+    "station_id": "28398",
+    "name": "ライフ相模原若松店",
+    "lat": 35.5376188,
+    "lon": 139.423875,
+    "capacity": null
+  },
+  {
     "station_id": "2886",
     "name": "湘南モノレール 片瀬山駅",
     "lat": 35.317269,
