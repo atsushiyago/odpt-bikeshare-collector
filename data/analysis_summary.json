@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updated_at_jst": "2026-11-27 23:45:26",
-    "date_range": "2026-11-25 〜 2026-11-27",
+    "updated_at_jst": "2026-11-28 00:00:33",
+    "date_range": "2026-11-25 〜 2026-11-28",
     "total_snapshots": 159,
     "total_valid_delays": 95714,
     "overall_available_rate": 67.8,
@@ -893,8 +893,8 @@
   "segments": {
     "all": {
       "meta": {
-        "updated_at_jst": "2026-11-27 23:45:26",
-        "date_range": "2026-11-25 〜 2026-11-27",
+        "updated_at_jst": "2026-11-28 00:00:33",
+        "date_range": "2026-11-25 〜 2026-11-28",
         "total_snapshots": 159,
         "total_valid_delays": 95714,
         "overall_available_rate": 67.8,
@@ -1786,7 +1786,7 @@
     },
     "weekday": {
       "meta": {
-        "updated_at_jst": "2026-11-27 23:45:26",
+        "updated_at_jst": "2026-11-28 00:00:33",
         "date_range": "2026-11-25 〜 2026-11-27",
         "total_snapshots": 159,
         "total_valid_delays": 95714,
@@ -2679,8 +2679,8 @@
     },
     "holiday": {
       "meta": {
-        "updated_at_jst": "2026-11-27 23:45:26",
-        "date_range": "",
+        "updated_at_jst": "2026-11-28 00:00:33",
+        "date_range": "2026-11-28 〜 2026-11-28",
         "total_snapshots": 0,
         "total_valid_delays": 0,
         "overall_available_rate": 0.0,
