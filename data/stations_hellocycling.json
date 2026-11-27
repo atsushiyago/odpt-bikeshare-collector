@@ -11305,6 +11305,20 @@
     "capacity": null
   },
   {
+    "station_id": "28341",
+    "name": "プラーズ新横浜",
+    "lat": 35.5037655,
+    "lon": 139.6079506,
+    "capacity": null
+  },
+  {
+    "station_id": "28342",
+    "name": "加瀬ビル115",
+    "lat": 35.5186661,
+    "lon": 139.6139309,
+    "capacity": null
+  },
+  {
     "station_id": "28343",
     "name": "リバー綱島",
     "lat": 35.5295313,
