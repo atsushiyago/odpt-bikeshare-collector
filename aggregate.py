@@ -147,10 +147,34 @@ def build_stop_port_index(
     return nearby_map, nearest_dist_map
 
 
+def build_pattern_dest_station(
+    patterns: dict[str, list[str]], stops: dict[str, dict]
+) -> dict[str, dict[str, str | None]]:
+    """各パターン・各停留所から進行方向（stop_sequenceが後ろ）の終点側主要駅をマッピングする。"""
+    result: dict[str, dict[str, str | None]] = {}
+    for pid, seq in patterns.items():
+        dest_map: dict[str, str | None] = {}
+        n = len(seq)
+        for i in range(n):
+            sid = seq[i]
+            if sid in dest_map:
+                continue
+            dest_station_sid = None
+            for j in range(n - 1, i, -1):
+                cand_sid = seq[j]
+                cand_info = stops.get(cand_sid)
+                if cand_info and "駅" in cand_info.get("name", ""):
+                    dest_station_sid = cand_sid
+                    break
+            dest_map[sid] = dest_station_sid
+        result[pid] = dest_map
+    return result
+
+
 def load_bikeshare_snapshots(
     provider: str,
-) -> tuple[list[float], dict[float, dict[str, tuple[bool, int]]]]:
-    snapshots: dict[float, dict[str, tuple[bool, int]]] = defaultdict(dict)
+) -> tuple[list[float], dict[float, dict[str, tuple[bool, int, bool, int]]]]:
+    snapshots: dict[float, dict[str, tuple[bool, int, bool, int]]] = defaultdict(dict)
     ts_str_cache: dict[str, float] = {}
 
     for path in resolve_csv_paths(f"status_{provider}_*.csv*"):
@@ -165,7 +189,9 @@ def load_bikeshare_snapshots(
                 ts_str_cache[ts_str] = epoch
             is_renting = parse_bool(row.get("is_renting", ""))
             bikes = parse_int(row.get("num_bikes_available"), 0)
-            snapshots[epoch][sid] = (is_renting, bikes)
+            is_returning = parse_bool(row.get("is_returning", ""))
+            docks = parse_int(row.get("num_docks_available"), 0)
+            snapshots[epoch][sid] = (is_renting, bikes, is_returning, docks)
 
     sorted_epochs = sorted(snapshots.keys())
     return sorted_epochs, snapshots
@@ -216,6 +242,9 @@ def create_segment_accumulator() -> dict:
                 "available_count": 0,
                 "empty_count": 0,
                 "no_port_count": 0,
+                "dest_eval_count": 0,
+                "dest_full_count": 0,
+                "dest_station_counts": defaultdict(int),
             }
         ),
         "hourly_stats": [
@@ -237,6 +266,9 @@ def create_segment_accumulator() -> dict:
                 "available_count": 0,
                 "empty_count": 0,
                 "no_port_count": 0,
+                "dest_eval_count": 0,
+                "dest_full_count": 0,
+                "dest_station_counts": defaultdict(int),
             }
         ),
     }
@@ -261,6 +293,8 @@ def record_delay_event(
     status_cat: str,
     route_id: str,
     route_name: str,
+    dest_stop_id: str | None = None,
+    dest_is_full: bool | None = None,
 ) -> None:
     """単一の有効遅延イベントをアキュムレータへ加算する。"""
     acc["total_valid_delays"] += 1
@@ -274,6 +308,11 @@ def record_delay_event(
     st_acc["delay_count"] += 1
     st_acc["total_delay_sec"] += delay_sec
     st_acc[count_key] += 1
+    if dest_stop_id is not None and dest_is_full is not None:
+        st_acc["dest_eval_count"] += 1
+        if dest_is_full:
+            st_acc["dest_full_count"] += 1
+        st_acc["dest_station_counts"][dest_stop_id] += 1
 
     hr_acc = acc["hourly_stats"][hour]
     hr_acc["delay_count"] += 1
@@ -285,6 +324,11 @@ def record_delay_event(
     rt_acc["delay_count"] += 1
     rt_acc["total_delay_sec"] += delay_sec
     rt_acc[count_key] += 1
+    if dest_stop_id is not None and dest_is_full is not None:
+        rt_acc["dest_eval_count"] += 1
+        if dest_is_full:
+            rt_acc["dest_full_count"] += 1
+        rt_acc["dest_station_counts"][dest_stop_id] += 1
 
 
 def build_segment_summary(
@@ -321,6 +365,13 @@ def build_segment_summary(
             "no_port" if st_acc["no_port_count"] >= st_acc["empty_count"] else "empty"
         )
         cnt = st_acc["delay_count"]
+        dest_eval = st_acc["dest_eval_count"]
+        dest_station_counts = st_acc["dest_station_counts"]
+        top_dest_id = (
+            max(dest_station_counts.items(), key=lambda kv: kv[1])[0]
+            if dest_station_counts
+            else None
+        )
         problem_candidates.append(
             {
                 "stop_id": stop_id,
@@ -332,8 +383,13 @@ def build_segment_summary(
                 "available_count": st_acc["available_count"],
                 "empty_count": st_acc["empty_count"],
                 "no_port_count": st_acc["no_port_count"],
+                "empty_rate": pct(st_acc["empty_count"], cnt),
+                "no_port_rate": pct(st_acc["no_port_count"], cnt),
                 "nearest_port_dist_m": nearest_dist_map.get(stop_id),
                 "issue_type": issue_type,
+                "dest_eval_count": dest_eval,
+                "dest_full_rate": pct(st_acc["dest_full_count"], dest_eval) if dest_eval > 0 else None,
+                "dest_station_name": stops[top_dest_id]["name"] if top_dest_id and top_dest_id in stops else None,
                 "_issue_count": issue_count,
             }
         )
@@ -344,7 +400,7 @@ def build_segment_summary(
     )
     problem_stops = [
         {k: v for k, v in item.items() if k != "_issue_count"}
-        for item in problem_candidates[:30]
+        for item in problem_candidates
     ]
 
     hourly_trends = []
@@ -366,6 +422,13 @@ def build_segment_summary(
     route_list = []
     for route_id, rt_acc in acc["route_stats"].items():
         cnt = rt_acc["delay_count"]
+        dest_eval = rt_acc["dest_eval_count"]
+        dest_station_counts = rt_acc["dest_station_counts"]
+        top_dest_id = (
+            max(dest_station_counts.items(), key=lambda kv: kv[1])[0]
+            if dest_station_counts
+            else None
+        )
         route_list.append(
             {
                 "route_id": route_id,
@@ -375,6 +438,9 @@ def build_segment_summary(
                 "available_rate": pct(rt_acc["available_count"], cnt),
                 "empty_rate": pct(rt_acc["empty_count"], cnt),
                 "no_port_rate": pct(rt_acc["no_port_count"], cnt),
+                "dest_eval_count": dest_eval,
+                "dest_full_rate": pct(rt_acc["dest_full_count"], dest_eval) if dest_eval > 0 else None,
+                "dest_station_name": stops[top_dest_id]["name"] if top_dest_id and top_dest_id in stops else None,
             }
         )
     route_list.sort(key=lambda x: (x["delay_count"], x["avg_delay_min"]), reverse=True)
@@ -397,12 +463,14 @@ def main():
 
     stops: dict[str, dict] = bus_master.get("stops", {})
     trips: dict[str, dict] = bus_master.get("trips", {})
+    patterns: dict[str, list[str]] = bus_master.get("patterns", {})
 
     stations = load_bikeshare_stations()
     nearby_map, nearest_dist_map = build_stop_port_index(stops, stations)
+    pattern_dest_station = build_pattern_dest_station(patterns, stops)
 
     provider_epochs: dict[str, list[float]] = {}
-    provider_snapshots: dict[str, dict[float, dict[str, tuple[bool, int]]]] = {}
+    provider_snapshots: dict[str, dict[float, dict[str, tuple[bool, int, bool, int]]]] = {}
     for provider in STATION_FILES:
         epochs, snaps = load_bikeshare_snapshots(provider)
         provider_epochs[provider] = epochs
@@ -480,7 +548,7 @@ def main():
                     port_state = snap.get(port_id)
                     if port_state is None:
                         continue
-                    is_renting, bikes = port_state
+                    is_renting, bikes = port_state[0], port_state[1]
                     if is_renting and bikes >= 1:
                         has_available = True
                         break
@@ -491,9 +559,39 @@ def main():
             if trip_info:
                 route_id = trip_info["route_id"]
                 route_name = trip_info["route_name"]
+                pattern_id = trip_info.get("pattern_id")
             else:
                 route_id = "unknown"
                 route_name = "不明系統"
+                pattern_id = None
+
+            dest_stop_id = (
+                pattern_dest_station.get(pattern_id, {}).get(stop_id)
+                if pattern_id
+                else None
+            )
+            dest_is_full: bool | None = None
+            if dest_stop_id is not None:
+                dest_near_ports = nearby_map.get(dest_stop_id, [])
+                if dest_near_ports:
+                    matched_dest_ports = 0
+                    has_returnable_dock = False
+                    for prov, port_id in dest_near_ports:
+                        snap = snap_by_provider.get(prov)
+                        if snap is None:
+                            continue
+                        port_state = snap.get(port_id)
+                        if port_state is None:
+                            continue
+                        matched_dest_ports += 1
+                        _, _, is_returning, docks = port_state
+                        if is_returning and docks >= 1:
+                            has_returnable_dock = True
+                            break
+                    if matched_dest_ports > 0:
+                        dest_is_full = not has_returnable_dock
+                if dest_is_full is None:
+                    dest_stop_id = None
 
             for seg_key in ("all", day_segment):
                 record_delay_event(
@@ -506,6 +604,8 @@ def main():
                     status_cat=status_cat,
                     route_id=route_id,
                     route_name=route_name,
+                    dest_stop_id=dest_stop_id,
+                    dest_is_full=dest_is_full,
                 )
 
     now_jst = datetime.now(JST).strftime("%Y-%m-%d %H:%M:%S")
